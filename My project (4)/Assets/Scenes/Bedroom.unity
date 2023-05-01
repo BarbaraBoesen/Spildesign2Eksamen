@@ -16074,7 +16074,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7275c8242680dbd468ae02b5ba601bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: "K\xF8kken"
+  sceneName: Stue
   bedroomstairs: {fileID: 1521387989}
 --- !u!61 &1521387992
 BoxCollider2D:
