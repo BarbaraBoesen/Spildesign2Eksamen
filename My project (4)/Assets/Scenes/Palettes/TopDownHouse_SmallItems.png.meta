@@ -101,6 +101,18 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1459,70 +1471,70 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      TopDownHouse_SmallItems_27: -2060101744
-      TopDownHouse_SmallItems_37: -114497083
-      TopDownHouse_SmallItems_24: -61502998
-      TopDownHouse_SmallItems_60: 230101394
-      TopDownHouse_SmallItems_56: -629637061
-      TopDownHouse_SmallItems_6: -1853930775
-      TopDownHouse_SmallItems_23: -561733814
-      TopDownHouse_SmallItems_29: -1303454184
-      TopDownHouse_SmallItems_21: 847963634
-      TopDownHouse_SmallItems_43: -1171548892
-      TopDownHouse_SmallItems_39: 424218370
-      TopDownHouse_SmallItems_45: -588558939
-      TopDownHouse_SmallItems_63: 1438629672
-      TopDownHouse_SmallItems_8: 1953665881
-      TopDownHouse_SmallItems_13: -2095635697
-      TopDownHouse_SmallItems_61: 265472709
-      TopDownHouse_SmallItems_14: -1609429135
-      TopDownHouse_SmallItems_44: -166079524
-      TopDownHouse_SmallItems_1: -175848856
       TopDownHouse_SmallItems_0: 1466121918
-      TopDownHouse_SmallItems_62: 297446936
-      TopDownHouse_SmallItems_5: -570758924
-      TopDownHouse_SmallItems_46: 376976873
-      TopDownHouse_SmallItems_53: -705379511
-      TopDownHouse_SmallItems_7: 1798852903
+      TopDownHouse_SmallItems_1: -175848856
       TopDownHouse_SmallItems_10: -1079176637
-      TopDownHouse_SmallItems_41: 248075093
-      TopDownHouse_SmallItems_18: -661606172
-      TopDownHouse_SmallItems_30: -984200927
-      TopDownHouse_SmallItems_49: -1400404658
-      TopDownHouse_SmallItems_59: -572563505
-      TopDownHouse_SmallItems_54: 348659546
-      TopDownHouse_SmallItems_48: 905461853
-      TopDownHouse_SmallItems_4: 2099731873
-      TopDownHouse_SmallItems_28: -307214551
-      TopDownHouse_SmallItems_38: 1542502208
+      TopDownHouse_SmallItems_11: 1236091759
+      TopDownHouse_SmallItems_12: 1746610348
+      TopDownHouse_SmallItems_13: -2095635697
+      TopDownHouse_SmallItems_14: -1609429135
+      TopDownHouse_SmallItems_15: 2054866933
       TopDownHouse_SmallItems_16: -1898605567
       TopDownHouse_SmallItems_17: 137861444
-      TopDownHouse_SmallItems_26: 118105916
-      TopDownHouse_SmallItems_42: -2010305858
-      TopDownHouse_SmallItems_20: 974541437
-      TopDownHouse_SmallItems_36: 861855764
-      TopDownHouse_SmallItems_25: -1034798392
-      TopDownHouse_SmallItems_33: -1869385808
-      TopDownHouse_SmallItems_34: -958140949
-      TopDownHouse_SmallItems_3: 694343092
-      TopDownHouse_SmallItems_55: 1206786302
-      TopDownHouse_SmallItems_50: 455851158
-      TopDownHouse_SmallItems_9: 255731335
-      TopDownHouse_SmallItems_57: 1570507222
-      TopDownHouse_SmallItems_47: -106679796
-      TopDownHouse_SmallItems_11: 1236091759
-      TopDownHouse_SmallItems_40: 1635606594
-      TopDownHouse_SmallItems_52: -878492906
-      TopDownHouse_SmallItems_15: 2054866933
+      TopDownHouse_SmallItems_18: -661606172
       TopDownHouse_SmallItems_19: -83941435
+      TopDownHouse_SmallItems_2: -1641309861
+      TopDownHouse_SmallItems_20: 974541437
+      TopDownHouse_SmallItems_21: 847963634
+      TopDownHouse_SmallItems_22: 710855773
+      TopDownHouse_SmallItems_23: -561733814
+      TopDownHouse_SmallItems_24: -61502998
+      TopDownHouse_SmallItems_25: -1034798392
+      TopDownHouse_SmallItems_26: 118105916
+      TopDownHouse_SmallItems_27: -2060101744
+      TopDownHouse_SmallItems_28: -307214551
+      TopDownHouse_SmallItems_29: -1303454184
+      TopDownHouse_SmallItems_3: 694343092
+      TopDownHouse_SmallItems_30: -984200927
       TopDownHouse_SmallItems_31: 2000180724
       TopDownHouse_SmallItems_32: -2099260247
-      TopDownHouse_SmallItems_51: 606275800
+      TopDownHouse_SmallItems_33: -1869385808
+      TopDownHouse_SmallItems_34: -958140949
       TopDownHouse_SmallItems_35: 381132625
-      TopDownHouse_SmallItems_2: -1641309861
-      TopDownHouse_SmallItems_12: 1746610348
+      TopDownHouse_SmallItems_36: 861855764
+      TopDownHouse_SmallItems_37: -114497083
+      TopDownHouse_SmallItems_38: 1542502208
+      TopDownHouse_SmallItems_39: 424218370
+      TopDownHouse_SmallItems_4: 2099731873
+      TopDownHouse_SmallItems_40: 1635606594
+      TopDownHouse_SmallItems_41: 248075093
+      TopDownHouse_SmallItems_42: -2010305858
+      TopDownHouse_SmallItems_43: -1171548892
+      TopDownHouse_SmallItems_44: -166079524
+      TopDownHouse_SmallItems_45: -588558939
+      TopDownHouse_SmallItems_46: 376976873
+      TopDownHouse_SmallItems_47: -106679796
+      TopDownHouse_SmallItems_48: 905461853
+      TopDownHouse_SmallItems_49: -1400404658
+      TopDownHouse_SmallItems_5: -570758924
+      TopDownHouse_SmallItems_50: 455851158
+      TopDownHouse_SmallItems_51: 606275800
+      TopDownHouse_SmallItems_52: -878492906
+      TopDownHouse_SmallItems_53: -705379511
+      TopDownHouse_SmallItems_54: 348659546
+      TopDownHouse_SmallItems_55: 1206786302
+      TopDownHouse_SmallItems_56: -629637061
+      TopDownHouse_SmallItems_57: 1570507222
       TopDownHouse_SmallItems_58: -1614338854
-      TopDownHouse_SmallItems_22: 710855773
+      TopDownHouse_SmallItems_59: -572563505
+      TopDownHouse_SmallItems_6: -1853930775
+      TopDownHouse_SmallItems_60: 230101394
+      TopDownHouse_SmallItems_61: 265472709
+      TopDownHouse_SmallItems_62: 297446936
+      TopDownHouse_SmallItems_63: 1438629672
+      TopDownHouse_SmallItems_7: 1798852903
+      TopDownHouse_SmallItems_8: 1953665881
+      TopDownHouse_SmallItems_9: 255731335
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
