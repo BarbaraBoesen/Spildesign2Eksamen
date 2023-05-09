@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - LevelManager
+  - Form
+  - PuzzleManager
   layers:
   - Default
   - TransparentFX
@@ -12,8 +14,8 @@ TagManager:
   - LevelManager
   - Water
   - UI
-  - 
-  - 
+  - Fuse Silhuettes
+  - Fuses
   - 
   - 
   - 
@@ -41,4 +43,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Silhuettes Fuse
+    uniqueID: 140983427
+    locked: 0
+  - name: Fuses
+    uniqueID: 1947035029
     locked: 0
