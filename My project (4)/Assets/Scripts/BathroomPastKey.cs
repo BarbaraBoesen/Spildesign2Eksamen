@@ -1,19 +1,21 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
-public class FuseboxScene : MonoBehaviour
+public class BathroomPastKey : MonoBehaviour
 {
-    public string sceneName;
-    public GameObject FuseBox;
+    public GameObject presentKey;
     private bool playerInRange = false;
+    
+
+    void Start()
+    {
+        
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player entered the FuseBox collider.");
+            Debug.Log("Player entered the PastKeys collider.");
             playerInRange = true;
         }
     }
@@ -22,7 +24,7 @@ public class FuseboxScene : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player exited the FuseBox collider.");
+            Debug.Log("Player exited the PastKeys collider.");
             playerInRange = false;
         }
     }
@@ -31,17 +33,13 @@ public class FuseboxScene : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
+            
+            
+            presentKey.SetActive(true);
+            Debug.Log("You are not tall enough");
 
-
-            changeScene();
-
+               
+            
         }
     }
-
-
-    void changeScene()
-    {
-        SceneManager.LoadScene(sceneName);
-    }
-
 }
