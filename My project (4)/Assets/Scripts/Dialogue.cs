@@ -8,15 +8,15 @@ public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
+    public string[] characters; // Array of character names or identifiers
     public float textSpeed;
     public bool ReadingDistance;
     private Canvas signCanvas;
 
-    public Sprite character1Face;
-    public Sprite character2Face;
+    public Sprite[] characterImages; // Array of character images corresponding to the characters array
 
     private int index;
-    private bool isCharacter1Talking;
+    private int characterIndex; // Index to keep track of the current character speaking
 
     void Start()
     {
@@ -24,34 +24,39 @@ public class Dialogue : MonoBehaviour
         ReadingDistance = false;
         signCanvas = transform.Find("Canvas").GetComponent<Canvas>();
         signCanvas.gameObject.SetActive(false);
+
+        Image characterImageComponent = signCanvas.transform.Find("CharacterImage").GetComponent<Image>();
+        characterImageComponent.sprite = characterImages[characterIndex];
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && ReadingDistance == true)
         {
-            if (signCanvas.gameObject.activeSelf)
+            Debug.Log("Smith Estate");
+            StartDialogue();
+            signCanvas.gameObject.SetActive(!signCanvas.gameObject.activeSelf);
+            ReadingDistance = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            if (textComponent.text == lines[index])
             {
-                signCanvas.gameObject.SetActive(false);
-                StopAllCoroutines();
+                NextLine();
             }
             else
             {
-                StartDialogue();
-                signCanvas.gameObject.SetActive(true);
+                StopAllCoroutines();
+                textComponent.text = lines[index];
             }
-        }
-
-        if (Input.GetKeyDown(KeyCode.E) && textComponent.text == lines[index])
-        {
-            NextLine();
         }
     }
 
     public void StartDialogue()
     {
         index = 0;
-        isCharacter1Talking = true; // Start with character 1 talking
+        characterIndex = 0; // Start with the first character
         StartCoroutine(TypeLine());
     }
 
@@ -61,6 +66,17 @@ public class Dialogue : MonoBehaviour
         {
             index++;
             textComponent.text = string.Empty;
+            characterIndex++; // Move to the next character
+
+            // If the character index exceeds the number of characters available, reset it to 0
+            if (characterIndex >= characters.Length)
+            {
+                characterIndex = 0;
+            }
+
+            Image characterImageComponent = signCanvas.transform.Find("CharacterImage").GetComponent<Image>();
+            characterImageComponent.sprite = characterImages[characterIndex];
+
             StartCoroutine(TypeLine());
         }
         else
@@ -71,19 +87,6 @@ public class Dialogue : MonoBehaviour
 
     IEnumerator TypeLine()
     {
-        Image characterFaceImage = signCanvas.transform.Find("CharacterFace").GetComponent<Image>();
-
-        if (isCharacter1Talking)
-        {
-            characterFaceImage.sprite = character1Face;
-            isCharacter1Talking = false;
-        }
-        else
-        {
-            characterFaceImage.sprite = character2Face;
-            isCharacter1Talking = true;
-        }
-
         foreach (char c in lines[index].ToCharArray())
         {
             textComponent.text += c;
@@ -100,10 +103,5 @@ public class Dialogue : MonoBehaviour
     void OnTriggerExit2D(Collider2D collider)
     {
         ReadingDistance = false;
-        if (signCanvas.gameObject.activeSelf)
-        {
-            signCanvas.gameObject.SetActive(false);
-            StopAllCoroutines();
-        }
     }
 }
