@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 1f;
     public float collisionOffset = 0.05f;
     public ContactFilter2D movementFilter;
+    public Animator katAnimator;
+    public SpriteRenderer katSpriteRenderer;
     //public SwordAttack swordAttack;
 
     Vector2 movementInput;
@@ -48,20 +50,25 @@ public class PlayerController : MonoBehaviour
                 }
 
                 animator.SetBool("isMoving", success);
+                katAnimator.SetBool("isMoving", success);
             }
             else
             {
                 animator.SetBool("isMoving", false);
+                katAnimator.SetBool("isMoving", false);
             }
 
             // Set direction of sprite to movement direction
             if (movementInput.x < 0)
             {
                 spriteRenderer.flipX = true;
+                katSpriteRenderer.flipX = true;
+
             }
             else if (movementInput.x > 0)
             {
                 spriteRenderer.flipX = false;
+                katSpriteRenderer.flipX = false;
             }
         }
     }
