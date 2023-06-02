@@ -39,7 +39,7 @@ public class FuseboxScene : MonoBehaviour
         }
         else
         {
-            Debug.Log("You Need a Key");
+            
         }
 
     }

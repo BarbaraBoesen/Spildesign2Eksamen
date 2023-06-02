@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     public ContactFilter2D movementFilter;
     public Animator katAnimator;
     public SpriteRenderer katSpriteRenderer;
+    public Sprite[] characterSprites;
     //public SwordAttack swordAttack;
 
     Vector2 movementInput;
@@ -72,7 +73,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-  
+
 
     private bool TryMove(Vector2 direction)
     {
@@ -108,7 +109,7 @@ public class PlayerController : MonoBehaviour
         movementInput = movementValue.Get<Vector2>();
     }
 
-   
 
-   
+
+
 }
