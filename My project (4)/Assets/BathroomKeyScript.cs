@@ -42,7 +42,7 @@ public class BathroomKeyScript : MonoBehaviour
                 Debug.Log("You got the key!");
                 Destroy(keyPrefab);
 
-               
+
             }
         }
     }
