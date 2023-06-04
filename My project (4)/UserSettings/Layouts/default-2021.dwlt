@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Scene
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 116
+  controlID: 28
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 605
     height: 1307
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 117
+  controlID: 29
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 118
+  controlID: 30
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -435,36 +435,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Prefabs/Prefabs Stue 2 Sidste Puzzle
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs/Prefabs Stue 2 Sidste Puzzle
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Thomas\Desktop\Spildesign2Eksamen-main\My project (4)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: bccf0100
-    m_LastClickedID: 118716
-    m_ExpandedIDs: 000000000a7600000c7600000e7600001076000012760000147600001676000018760000287600007e76000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 19}
+    m_SelectedIDs: a4740000
+    m_LastClickedID: 29860
+    m_ExpandedIDs: 000000007e74000080740000827400008474000086740000887400008a7400008c7400008e740000a474000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Scenes
-      m_OriginalName: Scenes
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 30334
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -478,7 +478,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a7600000c7600000e7600001076000012760000147600001676000018760000
+    m_ExpandedIDs: 000000007e74000080740000827400008474000086740000887400008a7400008c7400008e740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -506,7 +506,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000c26d0000c86d00000000000072620000909d0000989f0000
+    m_ExpandedInstanceIDs: c6230000c26d0000c86d00000000000072620000909d0000989f0000ee740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -606,23 +606,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f817feff
-      m_LastClickedID: -124936
-      m_ExpandedIDs: 285cfdffb262fdffbc62fdffc462fdffe26cfdffe46cfdffde6ffdff5413feff5613fefff817feff4c1afefff21efeff2022feffaa27feff982cfeff7230feff4e34feffd838feff303cfeff703ffeff0e43feffea46feff2449feff664bfeff0c4ffeffdc59feffb25efefffa5efeff3c5ffeff845ffeffcc5ffeff1460feff7060feffd460feff8264feff5667feff906cfefff06ffeffc670feff7e71feffd271feff0274feff5a74feff6e77fefffc77feff247afeff7e7afeffa87cfeff9480feff688bfeff5890feffa0a0fefff0a5feff74a6feffbea6feff06a7feff5aa7feffa2a7fefff0a7feff9014ffff8217ffffa617ffffbc17ffffc017ffffa419ffffb219ffff9e1affff8e1dffffc41fffffe01fffffe61fffffe421fffff221ffff0422ffff0826ffffcc2bffff762cffff2033ffff7033ffffba33ffff0434ffff4e34ffffce35ffff4644ffff2645ffff004bffff0c54ffff1054ffff8054ffff6655ffffba78ffff5279ffff3881ffff5a83ffff7c85ffffdc88ffffcc8bffffe68dffff0490ffff3093ffff0cfbffff58620000be620000ec620000f66200002a63000032630000726300004aea000064ee0000d0ef0000d8ef000074f000002afc000092fc0000a4fc0000dcfc000026fd0000ea260100ee320100d6420100ec420100244301004043010078430100e8490100484a0100804a0100ca4a0100a24f01005a5e0100a65e0100ce5e0100027801002e78010076780100447f010024850100ae8c0100c88c0100108d0100168d0100288d0100608d01009a930100ae930100c4930100fc930100a4960100ba960100ea960100ee960100629e0100bea80100aaa90100c0a90100f8a90100f0ae01005eb00100ceb101003eb301000cb60100d2b701000ab8010002bf01000ebf010038c00100b2c0010068c10100ecc10100f8c10100
+      m_SelectedIDs: 30bc0000
+      m_LastClickedID: 48176
+      m_ExpandedIDs: 48e5ffffd6f7ffff0cfbffffcc750000ccbb0000eebb000078bc000086bc0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: "Bordeterd\xE6kketdialogue"
-        m_OriginalName: "Bordeterd\xE6kketdialogue"
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -173016
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
@@ -912,9 +912,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.5818183, y: -6.716087, z: 0.56168824}
+    m_Target: {x: 0.9134978, y: -6.7706804, z: 0.5657162}
     speed: 2
-    m_Value: {x: 2.5818183, y: -6.716087, z: 0.56168824}
+    m_Value: {x: 0.9134978, y: -6.7706804, z: 0.5657162}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -965,9 +965,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 9.597147
     speed: 2
-    m_Value: 10
+    m_Value: 10.049369
   m_Ortho:
     m_Target: 1
     speed: 2
