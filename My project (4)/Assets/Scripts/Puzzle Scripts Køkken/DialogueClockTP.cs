@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class KommodeNutid1 : MonoBehaviour
+public class DialogueClockTP : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
@@ -12,13 +12,12 @@ public class KommodeNutid1 : MonoBehaviour
     public float textSpeed;
     public bool ReadingDistance;
     private Canvas signCanvas;
-    
+    public GameObject objectToDestroy;
 
     public Sprite[] characterImages; // Array of character images corresponding to the characters array
 
     private int index;
     private int characterIndex; // Index to keep track of the current character speaking
-    private bool hasInteracted; // Flag to track the first interaction
 
     void Start()
     {
@@ -29,19 +28,14 @@ public class KommodeNutid1 : MonoBehaviour
 
         Image characterImageComponent = signCanvas.transform.Find("CharacterImage").GetComponent<Image>();
         characterImageComponent.sprite = characterImages[characterIndex];
-        hasInteracted = false; // Initialize the flag to false
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E) && ReadingDistance == true)
+        if (Input.GetKeyDown(KeyCode.T) && ReadingDistance == true)
         {
-            if (!hasInteracted) // Check if the first interaction has occurred
-            {
-                Debug.Log("Smith Estate");
-                StartDialogue();
-                hasInteracted = true; // Set the flag to true after the first interaction
-            }
+            Debug.Log("Smith Estate");
+            StartDialogue();
             signCanvas.gameObject.SetActive(!signCanvas.gameObject.activeSelf);
             ReadingDistance = false;
         }
@@ -89,7 +83,7 @@ public class KommodeNutid1 : MonoBehaviour
         else
         {
             signCanvas.gameObject.SetActive(false);
-           
+            DestroyObject();
         }
     }
 
@@ -112,6 +106,12 @@ public class KommodeNutid1 : MonoBehaviour
     {
         ReadingDistance = false;
     }
-   
 
+    private void DestroyObject()
+    {
+        Destroy(objectToDestroy);
+    }
+    
+       
+    
 }

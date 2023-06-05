@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class PrefabSpawner : MonoBehaviour
 {
-    public GameObject prefabToSpawn;
+    public GameObject[] prefabsToSpawn;
     public Transform spawnPoint;
 
     private bool canSpawn;
@@ -15,7 +15,7 @@ public class PrefabSpawner : MonoBehaviour
     {
         if (canSpawn && Input.GetKeyDown(KeyCode.E))
         {
-            SpawnPrefab();
+            SpawnPrefabs();
         }
     }
 
@@ -35,8 +35,11 @@ public class PrefabSpawner : MonoBehaviour
         }
     }
 
-    void SpawnPrefab()
+    void SpawnPrefabs()
     {
-        Instantiate(prefabToSpawn, spawnPoint.position, spawnPoint.rotation);
+        foreach (GameObject prefab in prefabsToSpawn)
+        {
+            Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
+        }
     }
 }
