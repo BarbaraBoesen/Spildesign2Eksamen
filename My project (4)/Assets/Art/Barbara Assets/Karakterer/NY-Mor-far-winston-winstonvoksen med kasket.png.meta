@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -101,9 +101,924 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 437
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278f1645eefdda74288ff73454ea94b7
+      internalID: -1030948581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 437
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a1d1ebb581fe59419321148a27f3e58
+      internalID: -805868902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 437
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb9a4c68a283a6b489f9b544c25005b6
+      internalID: 457562776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 437
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9ed274ae88d0e3429a63aa31595ac3b
+      internalID: -1986815625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 437
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623be3e5a1c82414c9be604726c92125
+      internalID: 48981242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_5
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 437
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1433eff2c499d2748a4bf2380f24a88a
+      internalID: 1163673361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_6
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 389
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0a3bd47b8ffbb40b9e598654d045b9
+      internalID: 570700669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 389
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f0c94129c05934d8161b1d624c0eb0
+      internalID: -547058874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 389
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168d88d7fccbab94d927e2e3bbc2f220
+      internalID: 1613373760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_9
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 389
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79fa1ce780fe884a910c31ce5fcdf51
+      internalID: -1324635150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_10
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 389
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 205482c9da9df2c43a02e41feab3a84c
+      internalID: 1064189670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_11
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 389
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029681b8761806940b4a83f8752ad878
+      internalID: 1243239416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 339
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67e402128fd39c4d9ce22d5f7182dcd
+      internalID: 2515471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 339
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f39308a116b98645a6675f870daf3d7
+      internalID: -438374249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_14
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 339
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1900d2489ab302640aca4503b5315873
+      internalID: -446276561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 339
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc62215f9278c041aaab8d33c951a70
+      internalID: -329743346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_16
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 339
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebb91c4c5da85b4888905e5af427b0f
+      internalID: -1155102995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_17
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 339
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d7dbf14b8ab084a87798c1cb8bed3b
+      internalID: -704035093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_18
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 291
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d976ffb7dc52a3d4cb231261fe71f841
+      internalID: 978155607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 291
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32883033e9ea9404db7743bc0f813d00
+      internalID: 2023602472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_20
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 291
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfdd57e9459d764ab29c9433248d61e
+      internalID: -1744011122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_21
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 291
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d0fae6495c8764b9aa8d347e722854
+      internalID: 2048325489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_22
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 291
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cde974e1f0e6cb42ae31221de206fd8
+      internalID: 1998829462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_23
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 291
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a290117883cd78d4987ea0de14630be0
+      internalID: 1120529118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 243
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21d7d090ea1b38479d7446818934573
+      internalID: 539434139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 243
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ada484494caf734d9cd45e32eafc891
+      internalID: -1586475786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_26
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 243
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de5781a72b95ee42856c30641ba2a62
+      internalID: 263462206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_27
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 243
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956ad49b336c2584e9644fc774648e71
+      internalID: -682253593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_28
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 243
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cabf9bec2b564840b5956887fabfd02
+      internalID: -1783393151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 243
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbee11f3c8ba81143aa0b1c309c5472d
+      internalID: -1668841385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 195
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8ff7d4b50b95c34e8c1de9aa5cef407
+      internalID: -1040871354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_31
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 195
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4570ae45c1ad6a04d84217c389e2de53
+      internalID: 2084452457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_32
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 195
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fd1a1ccb3054f44abe4c52e066bc0c4
+      internalID: 270197356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_33
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 193
+        width: 20
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e193c7ac70b9f4da458adf16111498
+      internalID: -1120282648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_34
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 195
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6176fed7b78eb434a96c2b7f7fe22e4c
+      internalID: 786449544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 195
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3090223db637384983e018060154265
+      internalID: 1467790690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 155
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4d55ec4bd5f044fbf99ea553d11344
+      internalID: 1986529935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 101
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed51a7a089e99744b9480bc074f86d61
+      internalID: 1413914366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_38
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 101
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be6d66ef799e2e4ca538f5c47e824f5
+      internalID: -800393779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_39
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 101
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4c0c8c42c922542843943f4e78ec76
+      internalID: 370029562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_40
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 101
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3b99acb1c234b48840a5bdd1e9d84e
+      internalID: -1908253729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_41
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 101
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaeeb05c9ac8f864981c5e1c452eaec1
+      internalID: -1186559642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_42
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 101
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91695403f56aead49bba431222439045
+      internalID: -825575219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +1029,50 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NY-Mor-far-winston-winstonvoksen med kasket_0: -1030948581
+      NY-Mor-far-winston-winstonvoksen med kasket_1: -805868902
+      NY-Mor-far-winston-winstonvoksen med kasket_10: 1064189670
+      NY-Mor-far-winston-winstonvoksen med kasket_11: 1243239416
+      NY-Mor-far-winston-winstonvoksen med kasket_12: 2515471
+      NY-Mor-far-winston-winstonvoksen med kasket_13: -438374249
+      NY-Mor-far-winston-winstonvoksen med kasket_14: -446276561
+      NY-Mor-far-winston-winstonvoksen med kasket_15: -329743346
+      NY-Mor-far-winston-winstonvoksen med kasket_16: -1155102995
+      NY-Mor-far-winston-winstonvoksen med kasket_17: -704035093
+      NY-Mor-far-winston-winstonvoksen med kasket_18: 978155607
+      NY-Mor-far-winston-winstonvoksen med kasket_19: 2023602472
+      NY-Mor-far-winston-winstonvoksen med kasket_2: 457562776
+      NY-Mor-far-winston-winstonvoksen med kasket_20: -1744011122
+      NY-Mor-far-winston-winstonvoksen med kasket_21: 2048325489
+      NY-Mor-far-winston-winstonvoksen med kasket_22: 1998829462
+      NY-Mor-far-winston-winstonvoksen med kasket_23: 1120529118
+      NY-Mor-far-winston-winstonvoksen med kasket_24: 539434139
+      NY-Mor-far-winston-winstonvoksen med kasket_25: -1586475786
+      NY-Mor-far-winston-winstonvoksen med kasket_26: 263462206
+      NY-Mor-far-winston-winstonvoksen med kasket_27: -682253593
+      NY-Mor-far-winston-winstonvoksen med kasket_28: -1783393151
+      NY-Mor-far-winston-winstonvoksen med kasket_29: -1668841385
+      NY-Mor-far-winston-winstonvoksen med kasket_3: -1986815625
+      NY-Mor-far-winston-winstonvoksen med kasket_30: -1040871354
+      NY-Mor-far-winston-winstonvoksen med kasket_31: 2084452457
+      NY-Mor-far-winston-winstonvoksen med kasket_32: 270197356
+      NY-Mor-far-winston-winstonvoksen med kasket_33: -1120282648
+      NY-Mor-far-winston-winstonvoksen med kasket_34: 786449544
+      NY-Mor-far-winston-winstonvoksen med kasket_35: 1467790690
+      NY-Mor-far-winston-winstonvoksen med kasket_36: 1986529935
+      NY-Mor-far-winston-winstonvoksen med kasket_37: 1413914366
+      NY-Mor-far-winston-winstonvoksen med kasket_38: -800393779
+      NY-Mor-far-winston-winstonvoksen med kasket_39: 370029562
+      NY-Mor-far-winston-winstonvoksen med kasket_4: 48981242
+      NY-Mor-far-winston-winstonvoksen med kasket_40: -1908253729
+      NY-Mor-far-winston-winstonvoksen med kasket_41: -1186559642
+      NY-Mor-far-winston-winstonvoksen med kasket_42: -825575219
+      NY-Mor-far-winston-winstonvoksen med kasket_5: 1163673361
+      NY-Mor-far-winston-winstonvoksen med kasket_6: 570700669
+      NY-Mor-far-winston-winstonvoksen med kasket_7: -547058874
+      NY-Mor-far-winston-winstonvoksen med kasket_8: 1613373760
+      NY-Mor-far-winston-winstonvoksen med kasket_9: -1324635150
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
