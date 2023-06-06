@@ -1,10 +1,12 @@
+
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
-public class KommodeNutid1 : MonoBehaviour
+public class Tallerkner : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
@@ -12,7 +14,7 @@ public class KommodeNutid1 : MonoBehaviour
     public float textSpeed;
     public bool ReadingDistance;
     private Canvas signCanvas;
-    
+    public GameObject objectToDestroy;
 
     public Sprite[] characterImages; // Array of character images corresponding to the characters array
 
@@ -89,7 +91,11 @@ public class KommodeNutid1 : MonoBehaviour
         else
         {
             signCanvas.gameObject.SetActive(false);
-           
+            if (hasInteracted)
+            {
+                DestroyObject();
+            }
+
         }
     }
 
@@ -112,6 +118,15 @@ public class KommodeNutid1 : MonoBehaviour
     {
         ReadingDistance = false;
     }
-   
+    private void DestroyObject()
+    {
+
+        Destroy(objectToDestroy);
+
+    }
+
+
+
+
 
 }
