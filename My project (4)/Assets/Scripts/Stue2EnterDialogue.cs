@@ -3,54 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class DialogueClockTP : MonoBehaviour
+public class Stue2EnterDialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public string[] characters; // Array of character names or identifiers
     public float textSpeed;
-    public bool ReadingDistance;
     private Canvas signCanvas;
-    public GameObject objectToDestroy;
 
     public Sprite[] characterImages; // Array of character images corresponding to the characters array
 
     private int index;
     private int characterIndex; // Index to keep track of the current character speaking
 
+    private bool dialogueTriggered = false; // Flag to track if the dialogue has been triggered
+
     void Start()
     {
         textComponent.text = string.Empty;
-        ReadingDistance = false;
         signCanvas = transform.Find("Canvas").GetComponent<Canvas>();
         signCanvas.gameObject.SetActive(false);
 
         Image characterImageComponent = signCanvas.transform.Find("CharacterImage").GetComponent<Image>();
         characterImageComponent.sprite = characterImages[characterIndex];
+
+        SceneManager.sceneLoaded += OnSceneLoaded; // Subscribe to the sceneLoaded event
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T) && ReadingDistance == true)
+        if (dialogueTriggered && Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("Smith Estate");
-            StartDialogue();
-            signCanvas.gameObject.SetActive(!signCanvas.gameObject.activeSelf);
-            ReadingDistance = false;
-        }
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            if (textComponent.text == lines[index])
-            {
-                NextLine();
-            }
-            else
-            {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
-            }
+            NextLine();
         }
     }
 
@@ -59,7 +45,7 @@ public class DialogueClockTP : MonoBehaviour
         index = 0;
         characterIndex = 0; // Start with the first character
         StartCoroutine(TypeLine());
-        
+        dialogueTriggered = true;
     }
 
     void NextLine()
@@ -81,12 +67,9 @@ public class DialogueClockTP : MonoBehaviour
 
             StartCoroutine(TypeLine());
         }
-        else 
+        else
         {
             signCanvas.gameObject.SetActive(false);
-            DestroyObject();
-
-
         }
     }
 
@@ -99,22 +82,9 @@ public class DialogueClockTP : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+    // Callback method when a new scene is loaded
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        ReadingDistance = true;
-        Debug.Log("Press E");
+        StartDialogue();
     }
-
-    void OnTriggerExit2D(Collider2D collider)
-    {
-        ReadingDistance = false;
-    }
-
-    private void DestroyObject()
-    {
-        Destroy(objectToDestroy);
-    }
-    
-       
-    
 }
