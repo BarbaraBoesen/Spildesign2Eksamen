@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public Animator katAnimator;
     public SpriteRenderer katSpriteRenderer;
     public Sprite[] characterSprites;
+    private Dialogue dialogue;
     //public SwordAttack swordAttack;
 
     Vector2 movementInput;
@@ -28,11 +29,21 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        GameObject dialogueObject = GameObject.FindWithTag("Dialogue");
+       
+        if (dialogueObject != null)
+        {
+            dialogue = dialogueObject.GetComponent<Dialogue>();
+        }
+        else
+        {
+            Debug.LogError("No GameObject with tag 'Dialogue' found");
+        }
     }
 
     private void FixedUpdate()
     {
-        if (canMove)
+        if (canMove && DialogueManager.instance.CurrentDialogue?.isReading != true)
         {
             // If movement input is not 0, try to move
             if (movementInput != Vector2.zero)

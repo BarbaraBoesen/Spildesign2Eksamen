@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 6853134788036379617}
   m_Layer: 0
   m_Name: Skrivebordet
-  m_TagString: Untagged
+  m_TagString: Dialogue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,6 +165,7 @@ MonoBehaviour:
   - CharacterA
   textSpeed: 0
   ReadingDistance: 0
+  isReading: 0
   characterImages:
   - {fileID: 21300000, guid: 4e660875e1ff92b4da84b504ab9b3dc3, type: 3}
   - {fileID: 21300000, guid: 4e660875e1ff92b4da84b504ab9b3dc3, type: 3}
