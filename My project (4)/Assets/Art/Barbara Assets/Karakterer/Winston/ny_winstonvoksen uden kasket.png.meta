@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f7ef68362198b1e438860ce0faf844a9
+guid: ec072964c90eab543915254fb34e8ad8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,27 +101,15 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kat-animation_0
+      name: ny_winstonvoksen uden kasket_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 432
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -131,18 +119,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 231042deeb17ee2499ca8e55d5813c89
-      internalID: -974877244
+      spriteID: 07e237ffe26969b488fa8a602ef38887
+      internalID: -1996501292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_1
+      name: ny_winstonvoksen uden kasket_1
       rect:
         serializedVersion: 2
         x: 48
-        y: 432
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -152,18 +140,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52e04108f4bdf1c4a8302ffe5042a13d
-      internalID: -654362327
+      spriteID: ad6ecf70169b82642acc2c7710958c8c
+      internalID: -1477590032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_2
+      name: ny_winstonvoksen uden kasket_2
       rect:
         serializedVersion: 2
         x: 96
-        y: 432
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -173,18 +161,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59a86a92ec0d1b7469fc1f199016d576
-      internalID: -51132152
+      spriteID: d3f40343d56b97b4c83442e17fadf80f
+      internalID: -601463313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_3
+      name: ny_winstonvoksen uden kasket_3
       rect:
         serializedVersion: 2
         x: 144
-        y: 432
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -194,18 +182,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecc85401bdd30794d95ddb448b3f134a
-      internalID: 2063276156
+      spriteID: 7a31b591009e20349b9b4f32b426d333
+      internalID: -1084348027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_4
+      name: ny_winstonvoksen uden kasket_4
       rect:
         serializedVersion: 2
         x: 192
-        y: 432
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -215,18 +203,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 928eba4852518604e9d988b145a00e68
-      internalID: -342134846
+      spriteID: d1bab4e763aad6d4e9ee2b8ce35b0135
+      internalID: -692423097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_5
+      name: ny_winstonvoksen uden kasket_5
       rect:
         serializedVersion: 2
         x: 240
-        y: 432
+        y: 240
         width: 48
         height: 48
       alignment: 0
@@ -236,18 +224,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76cf776565c5d124d916719b46e21fa8
-      internalID: 662212704
+      spriteID: 71f42b8eeb5f7d846b10a997b9714dd4
+      internalID: 339807712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_6
+      name: ny_winstonvoksen uden kasket_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -257,18 +245,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f630555a27d10234c9b92566406cce3f
-      internalID: -190574711
+      spriteID: 884225be0a6228743b31414608619be0
+      internalID: -290856097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_7
+      name: ny_winstonvoksen uden kasket_7
       rect:
         serializedVersion: 2
         x: 48
-        y: 384
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -278,18 +266,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81e68f9cffdbc6c4497c168cc434bfff
-      internalID: -2130486513
+      spriteID: b7d76ef57623b43439caeb466ddfb19c
+      internalID: 451555641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_8
+      name: ny_winstonvoksen uden kasket_8
       rect:
         serializedVersion: 2
         x: 96
-        y: 384
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -299,18 +287,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ba1fe1b592e954a847be3fd09dc06f
-      internalID: -20883524
+      spriteID: 8281554addec3814c837a4919ec18ca0
+      internalID: -1861324976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_9
+      name: ny_winstonvoksen uden kasket_9
       rect:
         serializedVersion: 2
         x: 144
-        y: 384
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -320,18 +308,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c520c6c571f30774794fb8310e65655b
-      internalID: -156717144
+      spriteID: e6e461e8994eae544ba47ce69cbfd1d9
+      internalID: -1116719166
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_10
+      name: ny_winstonvoksen uden kasket_10
       rect:
         serializedVersion: 2
         x: 192
-        y: 384
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -341,18 +329,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd4d5564e4a7c1342bcf7a8c70a6479e
-      internalID: -2051414428
+      spriteID: 643505a49103e1f4ba3d0e0092ce6657
+      internalID: 566705321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_11
+      name: ny_winstonvoksen uden kasket_11
       rect:
         serializedVersion: 2
         x: 240
-        y: 384
+        y: 192
         width: 48
         height: 48
       alignment: 0
@@ -362,18 +350,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 281a969477025d84f9b2b8bf2f05103c
-      internalID: 1780121836
+      spriteID: 1d48be25d86320140b0a58c618b4a19f
+      internalID: -509736991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_12
+      name: ny_winstonvoksen uden kasket_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 336
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -383,18 +371,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e40f65166aa164439b9ffbaea8e76d2
-      internalID: -1181373475
+      spriteID: f9ff4ebc0195e5b4ea7ad30ad99e6728
+      internalID: -2139608600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_13
+      name: ny_winstonvoksen uden kasket_13
       rect:
         serializedVersion: 2
         x: 48
-        y: 336
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -404,18 +392,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cfd6e81a8653634ea1491768ebd637d
-      internalID: -1374740544
+      spriteID: f66f7f8271345704182fd5159151bdfe
+      internalID: -619925128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_14
+      name: ny_winstonvoksen uden kasket_14
       rect:
         serializedVersion: 2
         x: 96
-        y: 336
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -425,18 +413,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: def59b1494699ef4cb263225a90e211c
-      internalID: 425386966
+      spriteID: 901e707381e209d4387dd1425b5cbb62
+      internalID: 1969382967
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_15
+      name: ny_winstonvoksen uden kasket_15
       rect:
         serializedVersion: 2
         x: 144
-        y: 336
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -446,18 +434,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7196163a08272454f9000412067b8979
-      internalID: 1422133520
+      spriteID: 1a3f2c61960bb6e459964b02f627f845
+      internalID: -1153452542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_16
+      name: ny_winstonvoksen uden kasket_16
       rect:
         serializedVersion: 2
         x: 192
-        y: 336
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -467,18 +455,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6595447bf1c5b3a439a67891ddde6839
-      internalID: 327578651
+      spriteID: 1db6ff30629337545a10d3ccb409bff7
+      internalID: -1306464679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_17
+      name: ny_winstonvoksen uden kasket_17
       rect:
         serializedVersion: 2
         x: 240
-        y: 336
+        y: 144
         width: 48
         height: 48
       alignment: 0
@@ -488,8 +476,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fe2f47614adb9b4c8b98f900c477417
-      internalID: -865807830
+      spriteID: 74cd087eb1ac2d54ebde672a40a81c9b
+      internalID: 1366816162
       vertices: []
       indices: 
       edges: []
@@ -505,24 +493,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Kat-animation_0: -974877244
-      Kat-animation_1: -654362327
-      Kat-animation_10: -2051414428
-      Kat-animation_11: 1780121836
-      Kat-animation_12: -1181373475
-      Kat-animation_13: -1374740544
-      Kat-animation_14: 425386966
-      Kat-animation_15: 1422133520
-      Kat-animation_16: 327578651
-      Kat-animation_17: -865807830
-      Kat-animation_2: -51132152
-      Kat-animation_3: 2063276156
-      Kat-animation_4: -342134846
-      Kat-animation_5: 662212704
-      Kat-animation_6: -190574711
-      Kat-animation_7: -2130486513
-      Kat-animation_8: -20883524
-      Kat-animation_9: -156717144
+      ny_winstonvoksen uden kasket_0: -1996501292
+      ny_winstonvoksen uden kasket_1: -1477590032
+      ny_winstonvoksen uden kasket_10: 566705321
+      ny_winstonvoksen uden kasket_11: -509736991
+      ny_winstonvoksen uden kasket_12: -2139608600
+      ny_winstonvoksen uden kasket_13: -619925128
+      ny_winstonvoksen uden kasket_14: 1969382967
+      ny_winstonvoksen uden kasket_15: -1153452542
+      ny_winstonvoksen uden kasket_16: -1306464679
+      ny_winstonvoksen uden kasket_17: 1366816162
+      ny_winstonvoksen uden kasket_2: -601463313
+      ny_winstonvoksen uden kasket_3: -1084348027
+      ny_winstonvoksen uden kasket_4: -692423097
+      ny_winstonvoksen uden kasket_5: 339807712
+      ny_winstonvoksen uden kasket_6: -290856097
+      ny_winstonvoksen uden kasket_7: 451555641
+      ny_winstonvoksen uden kasket_8: -1861324976
+      ny_winstonvoksen uden kasket_9: -1116719166
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

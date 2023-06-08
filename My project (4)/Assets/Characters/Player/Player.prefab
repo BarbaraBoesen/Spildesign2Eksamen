@@ -128,3 +128,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08c76a0a4a3521f46ae01eda65a2a489, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveSpeed: 1
+  collisionOffset: 0.05
+  movementFilter:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  katAnimator: {fileID: 0}
+  katSpriteRenderer: {fileID: 0}
+  characterSprites: []
