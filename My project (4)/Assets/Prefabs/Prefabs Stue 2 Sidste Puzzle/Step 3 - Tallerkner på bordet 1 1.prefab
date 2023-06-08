@@ -76,10 +76,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 6961545000514755072}
   lines:
-  - ....
+  - Hmm...
   - 'Der mangler stadig noget... '
-  - Vinglas??
-  - "\"winston skal t\xE6nke tilbage\""
+  - Vinglas?
+  - Kom nu, dyk ned i hukommelsens dybder.
+  - "Hvis ikke du, hvem ved det s\xE5?"
   characters:
   - CharacterA
   - CharacterA

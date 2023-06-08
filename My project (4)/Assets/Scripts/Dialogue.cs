@@ -18,12 +18,15 @@ public class Dialogue : MonoBehaviour
     public Decision[] decisions;
     private int currentDecisionIndex;
 
+
     public ButtonHandler buttonHandler; // Reference to the new ButtonHandler script
 
     public Sprite[] characterImages;
 
     private int index;
     private int characterIndex;
+
+
 
     void Start()
     {
@@ -36,15 +39,17 @@ public class Dialogue : MonoBehaviour
         Image characterImageComponent = signCanvas.transform.Find("CharacterImage").GetComponent<Image>();
         characterImageComponent.sprite = characterImages[characterIndex];
     }
-
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (ReadingDistance && !isReading) // Start reading only if player is in reading distance and not already reading
             {
+                
                 Debug.Log("Smith Estate");
                 StartDialogue();
+                AudioManager.instance.PlayClip(0, 0);
                 signCanvas.gameObject.SetActive(true);
                 ReadingDistance = false;
             }
@@ -53,6 +58,7 @@ public class Dialogue : MonoBehaviour
                 if (textComponent.text == currentLines[index])
                 {
                     NextLine();
+                    AudioManager.instance.PlayClip(0, 0);
                 }
                 else
                 {

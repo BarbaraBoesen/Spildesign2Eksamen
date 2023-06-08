@@ -13,6 +13,11 @@ public class PlayerController : MonoBehaviour
     public SpriteRenderer katSpriteRenderer;
     public Sprite[] characterSprites;
     private Dialogue dialogue;
+    public AudioClip[] footstepSounds;
+    private float footstepTimer = 0f;
+    public float footstepInterval = 0.5f;  // Time between footstep sounds in seconds. Adjust to match your character's speed.
+
+
     //public SwordAttack swordAttack;
 
     Vector2 movementInput;
@@ -63,6 +68,20 @@ public class PlayerController : MonoBehaviour
 
                 animator.SetBool("isMoving", success);
                 katAnimator.SetBool("isMoving", success);
+
+                    if (success)
+                {
+                    footstepTimer += Time.fixedDeltaTime;
+                    if (footstepTimer >= footstepInterval)
+                    {
+                        PlayFootstepSound();
+                        footstepTimer = 0f;
+                    }
+                }
+                else
+                {
+                    footstepTimer = 0f;  // Reset the timer when the character stops moving
+                }
             }
             else
             {
@@ -120,7 +139,11 @@ public class PlayerController : MonoBehaviour
         movementInput = movementValue.Get<Vector2>();
     }
 
-
+    void PlayFootstepSound()
+    {
+        int randomIndex = UnityEngine.Random.Range(2, footstepSounds.Length);
+        AudioManager.instance.PlayClip(randomIndex, 0);  // Assuming 0 is the index of the footstep audio source
+    }
 
 
 }

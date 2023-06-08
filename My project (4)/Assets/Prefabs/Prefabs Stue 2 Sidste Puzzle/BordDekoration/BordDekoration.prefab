@@ -229,8 +229,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 4162730503489968840}
   lines:
-  - 'Mystisk at den plante stadig er i live.. '
-  - "jeg m\xE5 hellere stille den op p\xE5 bordet"
+  - Forunderligt, at den gamle plante stadig holder fast i livet...
+  - "Smuk er den vel, den g\xE5r an."
   characters:
   - CharacterA
   - CharacterA

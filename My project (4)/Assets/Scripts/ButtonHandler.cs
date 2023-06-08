@@ -28,6 +28,7 @@ public class ButtonHandler : MonoBehaviour
         // Send decision to Dialogue 
         dialogue.MakeDecision(decision);
         Debug.Log("Du har klikket");
+        AudioManager.instance.PlayClip(1, 0);
 
         // Check if button is active before disabling it
         if (positiveButton.IsActive() || negativeButton.IsActive())

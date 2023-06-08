@@ -227,8 +227,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 2706767908098865051}
   lines:
-  - "men bordet er jo allerede d\xE6kket.. "
-  - "er det nu virkelig det? t\xE6nk dig om. "
+  - "Men bordet er jo allerede d\xE6kket?"
+  - "M\xE5ske er det klogt at lade tanken tage en ekstra tur rundt i hovedet"
   characters:
   - CharacterA
   - CharacterB
