@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3e2b192b65b932747ae3cec6236c7b8f
+guid: 5d0b675691b86d344ba65e1d1a243edc
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,18 +101,6 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -131,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 278f1645eefdda74288ff73454ea94b7
-      internalID: -1030948581
+      spriteID: 353ffde1cdb7887479fdfae7cddbfe0c
+      internalID: -1973133884
       vertices: []
       indices: 
       edges: []
@@ -152,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a1d1ebb581fe59419321148a27f3e58
-      internalID: -805868902
+      spriteID: 7d1204474eb14724f983505fe333f2f1
+      internalID: -1741395054
       vertices: []
       indices: 
       edges: []
@@ -173,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb9a4c68a283a6b489f9b544c25005b6
-      internalID: 457562776
+      spriteID: b35ecc969a406a6419ebbdf33935e5c9
+      internalID: 1311268880
       vertices: []
       indices: 
       edges: []
@@ -194,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9ed274ae88d0e3429a63aa31595ac3b
-      internalID: -1986815625
+      spriteID: a28fdd515200ebf49a115e1f3b3f295d
+      internalID: 595150201
       vertices: []
       indices: 
       edges: []
@@ -215,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 623be3e5a1c82414c9be604726c92125
-      internalID: 48981242
+      spriteID: 4ad1b4dce2001f04b8a4bccf4815f27a
+      internalID: 1392437601
       vertices: []
       indices: 
       edges: []
@@ -236,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1433eff2c499d2748a4bf2380f24a88a
-      internalID: 1163673361
+      spriteID: a6ef651e83786af439b4cb816aa277b2
+      internalID: -1078043093
       vertices: []
       indices: 
       edges: []
@@ -257,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb0a3bd47b8ffbb40b9e598654d045b9
-      internalID: 570700669
+      spriteID: 348cecdc8eb447149841c7c5ecdfbf10
+      internalID: 2005840268
       vertices: []
       indices: 
       edges: []
@@ -278,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7f0c94129c05934d8161b1d624c0eb0
-      internalID: -547058874
+      spriteID: 83d4b25f06dddb644a39f65cbe689235
+      internalID: -1898922969
       vertices: []
       indices: 
       edges: []
@@ -299,8 +287,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 168d88d7fccbab94d927e2e3bbc2f220
-      internalID: 1613373760
+      spriteID: 1dae6a0b62b067d46ac53707e8a02c57
+      internalID: -801480181
       vertices: []
       indices: 
       edges: []
@@ -320,8 +308,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d79fa1ce780fe884a910c31ce5fcdf51
-      internalID: -1324635150
+      spriteID: b19d58a0fe366c1418079d309537ab8b
+      internalID: 723726308
       vertices: []
       indices: 
       edges: []
@@ -341,8 +329,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 205482c9da9df2c43a02e41feab3a84c
-      internalID: 1064189670
+      spriteID: a092c13652562f1488f4e8833aaf4d2d
+      internalID: 1759987956
       vertices: []
       indices: 
       edges: []
@@ -362,8 +350,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 029681b8761806940b4a83f8752ad878
-      internalID: 1243239416
+      spriteID: fdbf0656544562c4b8695bd6fd3f7db7
+      internalID: 1455044942
       vertices: []
       indices: 
       edges: []
@@ -383,8 +371,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f67e402128fd39c4d9ce22d5f7182dcd
-      internalID: 2515471
+      spriteID: 2c58477383fe58d4ea655e5d573edf92
+      internalID: 283508145
       vertices: []
       indices: 
       edges: []
@@ -404,8 +392,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f39308a116b98645a6675f870daf3d7
-      internalID: -438374249
+      spriteID: 1c52e74b2b1a9b84a9468f4ae0d0ed3e
+      internalID: 863097947
       vertices: []
       indices: 
       edges: []
@@ -425,8 +413,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1900d2489ab302640aca4503b5315873
-      internalID: -446276561
+      spriteID: f40cd7ae8f8807f45bced1a81f2dbb77
+      internalID: -1114754701
       vertices: []
       indices: 
       edges: []
@@ -446,8 +434,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbc62215f9278c041aaab8d33c951a70
-      internalID: -329743346
+      spriteID: 7bc7b769fcb83c24493b77a84f1475b8
+      internalID: 949630164
       vertices: []
       indices: 
       edges: []
@@ -467,8 +455,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ebb91c4c5da85b4888905e5af427b0f
-      internalID: -1155102995
+      spriteID: 50f7ec7840e6ef141b60cb4c63a15517
+      internalID: 471268166
       vertices: []
       indices: 
       edges: []
@@ -488,8 +476,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8d7dbf14b8ab084a87798c1cb8bed3b
-      internalID: -704035093
+      spriteID: 3aacc0a743d215b4f8fe0adaeb4e55f6
+      internalID: 500198598
       vertices: []
       indices: 
       edges: []
@@ -509,8 +497,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d976ffb7dc52a3d4cb231261fe71f841
-      internalID: 978155607
+      spriteID: 064f5885dba79834a8e659bd2c134b14
+      internalID: 1896069205
       vertices: []
       indices: 
       edges: []
@@ -530,8 +518,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32883033e9ea9404db7743bc0f813d00
-      internalID: 2023602472
+      spriteID: 69ccddda1e378ac4dbb6e9e27b69d224
+      internalID: -1474815423
       vertices: []
       indices: 
       edges: []
@@ -551,8 +539,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cfdd57e9459d764ab29c9433248d61e
-      internalID: -1744011122
+      spriteID: 17f3b6e4277ea734b9ad0755e8afcacc
+      internalID: 924018870
       vertices: []
       indices: 
       edges: []
@@ -572,8 +560,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15d0fae6495c8764b9aa8d347e722854
-      internalID: 2048325489
+      spriteID: 0a3d360414637d4468c56cd9c4adc5f5
+      internalID: 1947049251
       vertices: []
       indices: 
       edges: []
@@ -593,8 +581,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8cde974e1f0e6cb42ae31221de206fd8
-      internalID: 1998829462
+      spriteID: 8c506fcb8ed50f04ab8f5fe33b6fc86a
+      internalID: 380248705
       vertices: []
       indices: 
       edges: []
@@ -614,8 +602,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a290117883cd78d4987ea0de14630be0
-      internalID: 1120529118
+      spriteID: 4b6cb69a0437d3b4982bda8fedace25f
+      internalID: 785221799
       vertices: []
       indices: 
       edges: []
@@ -635,8 +623,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d21d7d090ea1b38479d7446818934573
-      internalID: 539434139
+      spriteID: 47562435bc6391e479e72fabc8ce50bd
+      internalID: 571233128
       vertices: []
       indices: 
       edges: []
@@ -656,8 +644,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ada484494caf734d9cd45e32eafc891
-      internalID: -1586475786
+      spriteID: 177b0d366b6a1af4a8aedc86b72daed0
+      internalID: 916033210
       vertices: []
       indices: 
       edges: []
@@ -677,8 +665,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3de5781a72b95ee42856c30641ba2a62
-      internalID: 263462206
+      spriteID: 80037a4de9d2b4a4385faad383b08e04
+      internalID: -756080543
       vertices: []
       indices: 
       edges: []
@@ -698,8 +686,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 956ad49b336c2584e9644fc774648e71
-      internalID: -682253593
+      spriteID: 1f7a0c47a673b774e85105c73a85d16a
+      internalID: 51405954
       vertices: []
       indices: 
       edges: []
@@ -719,8 +707,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cabf9bec2b564840b5956887fabfd02
-      internalID: -1783393151
+      spriteID: 647bdb998b83cf5408ec5aca4a08b170
+      internalID: -683255678
       vertices: []
       indices: 
       edges: []
@@ -740,8 +728,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbee11f3c8ba81143aa0b1c309c5472d
-      internalID: -1668841385
+      spriteID: 0d34732d8f960eb49a8a7a5a7c22d6e1
+      internalID: -1189104854
       vertices: []
       indices: 
       edges: []
@@ -761,8 +749,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8ff7d4b50b95c34e8c1de9aa5cef407
-      internalID: -1040871354
+      spriteID: 8d45d7e85769bc8459df9422782bad8b
+      internalID: -522025333
       vertices: []
       indices: 
       edges: []
@@ -782,8 +770,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4570ae45c1ad6a04d84217c389e2de53
-      internalID: 2084452457
+      spriteID: 1e5b1d248cbb9f541af31363890dd9f0
+      internalID: 25166168
       vertices: []
       indices: 
       edges: []
@@ -803,8 +791,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fd1a1ccb3054f44abe4c52e066bc0c4
-      internalID: 270197356
+      spriteID: 77647ef0edbebf2448ce9575ae379270
+      internalID: -315797445
       vertices: []
       indices: 
       edges: []
@@ -824,8 +812,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23e193c7ac70b9f4da458adf16111498
-      internalID: -1120282648
+      spriteID: cedebc91944c9944ba9d25d9511847d0
+      internalID: 161506887
       vertices: []
       indices: 
       edges: []
@@ -845,8 +833,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6176fed7b78eb434a96c2b7f7fe22e4c
-      internalID: 786449544
+      spriteID: 1ef10005f1b4ecc4b8d06ce499a2f734
+      internalID: 179344340
       vertices: []
       indices: 
       edges: []
@@ -866,8 +854,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3090223db637384983e018060154265
-      internalID: 1467790690
+      spriteID: 69ee1ba5d04671949bbcdb9eab2fe3fc
+      internalID: 1810246732
       vertices: []
       indices: 
       edges: []
@@ -887,8 +875,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b4d55ec4bd5f044fbf99ea553d11344
-      internalID: 1986529935
+      spriteID: d966f7e406f42b3488b3659ab047f139
+      internalID: 539141730
       vertices: []
       indices: 
       edges: []
@@ -908,8 +896,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed51a7a089e99744b9480bc074f86d61
-      internalID: 1413914366
+      spriteID: 2a9b3ec12e5c1854b8d0d41289ffa464
+      internalID: -1151790129
       vertices: []
       indices: 
       edges: []
@@ -929,8 +917,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2be6d66ef799e2e4ca538f5c47e824f5
-      internalID: -800393779
+      spriteID: 86fef0b315109224798760e31743cc7f
+      internalID: -773331365
       vertices: []
       indices: 
       edges: []
@@ -950,8 +938,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c4c0c8c42c922542843943f4e78ec76
-      internalID: 370029562
+      spriteID: 5fca231f929c81f4aa1234adbe86dedb
+      internalID: -447317823
       vertices: []
       indices: 
       edges: []
@@ -971,8 +959,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d3b99acb1c234b48840a5bdd1e9d84e
-      internalID: -1908253729
+      spriteID: 4e4a1e4cb9ee8a74bae3b2f0a81f3d7f
+      internalID: 1811693122
       vertices: []
       indices: 
       edges: []
@@ -992,8 +980,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaeeb05c9ac8f864981c5e1c452eaec1
-      internalID: -1186559642
+      spriteID: ee01540d70e11ae438b45adca8fe8eaf
+      internalID: -239818292
       vertices: []
       indices: 
       edges: []
@@ -1013,8 +1001,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91695403f56aead49bba431222439045
-      internalID: -825575219
+      spriteID: 91c44bddb9306864bb584432cbdd05bd
+      internalID: -12321435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ff456d5b5885a4899d57ff1792a269
+      internalID: 867229911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_44
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed1efb6ce8fe374faa45877ec71b38a
+      internalID: 1459812110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_45
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2ae074d887a7d47b9fd47f9f7d58e7
+      internalID: -1749988508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cc3f99e5935854ebb42da35e0ea822
+      internalID: 342416628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06171dd56da7c874d857df62baa3c959
+      internalID: 1564434620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NY-Mor-far-winston-winstonvoksen med kasket_48
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 48
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9bec442bc699543871536b0415ab99
+      internalID: -1898647953
       vertices: []
       indices: 
       edges: []
@@ -1030,49 +1144,55 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      NY-Mor-far-winston-winstonvoksen med kasket_0: -1030948581
-      NY-Mor-far-winston-winstonvoksen med kasket_1: -805868902
-      NY-Mor-far-winston-winstonvoksen med kasket_10: 1064189670
-      NY-Mor-far-winston-winstonvoksen med kasket_11: 1243239416
-      NY-Mor-far-winston-winstonvoksen med kasket_12: 2515471
-      NY-Mor-far-winston-winstonvoksen med kasket_13: -438374249
-      NY-Mor-far-winston-winstonvoksen med kasket_14: -446276561
-      NY-Mor-far-winston-winstonvoksen med kasket_15: -329743346
-      NY-Mor-far-winston-winstonvoksen med kasket_16: -1155102995
-      NY-Mor-far-winston-winstonvoksen med kasket_17: -704035093
-      NY-Mor-far-winston-winstonvoksen med kasket_18: 978155607
-      NY-Mor-far-winston-winstonvoksen med kasket_19: 2023602472
-      NY-Mor-far-winston-winstonvoksen med kasket_2: 457562776
-      NY-Mor-far-winston-winstonvoksen med kasket_20: -1744011122
-      NY-Mor-far-winston-winstonvoksen med kasket_21: 2048325489
-      NY-Mor-far-winston-winstonvoksen med kasket_22: 1998829462
-      NY-Mor-far-winston-winstonvoksen med kasket_23: 1120529118
-      NY-Mor-far-winston-winstonvoksen med kasket_24: 539434139
-      NY-Mor-far-winston-winstonvoksen med kasket_25: -1586475786
-      NY-Mor-far-winston-winstonvoksen med kasket_26: 263462206
-      NY-Mor-far-winston-winstonvoksen med kasket_27: -682253593
-      NY-Mor-far-winston-winstonvoksen med kasket_28: -1783393151
-      NY-Mor-far-winston-winstonvoksen med kasket_29: -1668841385
-      NY-Mor-far-winston-winstonvoksen med kasket_3: -1986815625
-      NY-Mor-far-winston-winstonvoksen med kasket_30: -1040871354
-      NY-Mor-far-winston-winstonvoksen med kasket_31: 2084452457
-      NY-Mor-far-winston-winstonvoksen med kasket_32: 270197356
-      NY-Mor-far-winston-winstonvoksen med kasket_33: -1120282648
-      NY-Mor-far-winston-winstonvoksen med kasket_34: 786449544
-      NY-Mor-far-winston-winstonvoksen med kasket_35: 1467790690
-      NY-Mor-far-winston-winstonvoksen med kasket_36: 1986529935
-      NY-Mor-far-winston-winstonvoksen med kasket_37: 1413914366
-      NY-Mor-far-winston-winstonvoksen med kasket_38: -800393779
-      NY-Mor-far-winston-winstonvoksen med kasket_39: 370029562
-      NY-Mor-far-winston-winstonvoksen med kasket_4: 48981242
-      NY-Mor-far-winston-winstonvoksen med kasket_40: -1908253729
-      NY-Mor-far-winston-winstonvoksen med kasket_41: -1186559642
-      NY-Mor-far-winston-winstonvoksen med kasket_42: -825575219
-      NY-Mor-far-winston-winstonvoksen med kasket_5: 1163673361
-      NY-Mor-far-winston-winstonvoksen med kasket_6: 570700669
-      NY-Mor-far-winston-winstonvoksen med kasket_7: -547058874
-      NY-Mor-far-winston-winstonvoksen med kasket_8: 1613373760
-      NY-Mor-far-winston-winstonvoksen med kasket_9: -1324635150
+      NY-Mor-far-winston-winstonvoksen med kasket_0: -1973133884
+      NY-Mor-far-winston-winstonvoksen med kasket_1: -1741395054
+      NY-Mor-far-winston-winstonvoksen med kasket_10: 1759987956
+      NY-Mor-far-winston-winstonvoksen med kasket_11: 1455044942
+      NY-Mor-far-winston-winstonvoksen med kasket_12: 283508145
+      NY-Mor-far-winston-winstonvoksen med kasket_13: 863097947
+      NY-Mor-far-winston-winstonvoksen med kasket_14: -1114754701
+      NY-Mor-far-winston-winstonvoksen med kasket_15: 949630164
+      NY-Mor-far-winston-winstonvoksen med kasket_16: 471268166
+      NY-Mor-far-winston-winstonvoksen med kasket_17: 500198598
+      NY-Mor-far-winston-winstonvoksen med kasket_18: 1896069205
+      NY-Mor-far-winston-winstonvoksen med kasket_19: -1474815423
+      NY-Mor-far-winston-winstonvoksen med kasket_2: 1311268880
+      NY-Mor-far-winston-winstonvoksen med kasket_20: 924018870
+      NY-Mor-far-winston-winstonvoksen med kasket_21: 1947049251
+      NY-Mor-far-winston-winstonvoksen med kasket_22: 380248705
+      NY-Mor-far-winston-winstonvoksen med kasket_23: 785221799
+      NY-Mor-far-winston-winstonvoksen med kasket_24: 571233128
+      NY-Mor-far-winston-winstonvoksen med kasket_25: 916033210
+      NY-Mor-far-winston-winstonvoksen med kasket_26: -756080543
+      NY-Mor-far-winston-winstonvoksen med kasket_27: 51405954
+      NY-Mor-far-winston-winstonvoksen med kasket_28: -683255678
+      NY-Mor-far-winston-winstonvoksen med kasket_29: -1189104854
+      NY-Mor-far-winston-winstonvoksen med kasket_3: 595150201
+      NY-Mor-far-winston-winstonvoksen med kasket_30: -522025333
+      NY-Mor-far-winston-winstonvoksen med kasket_31: 25166168
+      NY-Mor-far-winston-winstonvoksen med kasket_32: -315797445
+      NY-Mor-far-winston-winstonvoksen med kasket_33: 161506887
+      NY-Mor-far-winston-winstonvoksen med kasket_34: 179344340
+      NY-Mor-far-winston-winstonvoksen med kasket_35: 1810246732
+      NY-Mor-far-winston-winstonvoksen med kasket_36: 539141730
+      NY-Mor-far-winston-winstonvoksen med kasket_37: -1151790129
+      NY-Mor-far-winston-winstonvoksen med kasket_38: -773331365
+      NY-Mor-far-winston-winstonvoksen med kasket_39: -447317823
+      NY-Mor-far-winston-winstonvoksen med kasket_4: 1392437601
+      NY-Mor-far-winston-winstonvoksen med kasket_40: 1811693122
+      NY-Mor-far-winston-winstonvoksen med kasket_41: -239818292
+      NY-Mor-far-winston-winstonvoksen med kasket_42: -12321435
+      NY-Mor-far-winston-winstonvoksen med kasket_43: 867229911
+      NY-Mor-far-winston-winstonvoksen med kasket_44: 1459812110
+      NY-Mor-far-winston-winstonvoksen med kasket_45: -1749988508
+      NY-Mor-far-winston-winstonvoksen med kasket_46: 342416628
+      NY-Mor-far-winston-winstonvoksen med kasket_47: 1564434620
+      NY-Mor-far-winston-winstonvoksen med kasket_48: -1898647953
+      NY-Mor-far-winston-winstonvoksen med kasket_5: -1078043093
+      NY-Mor-far-winston-winstonvoksen med kasket_6: 2005840268
+      NY-Mor-far-winston-winstonvoksen med kasket_7: -1898922969
+      NY-Mor-far-winston-winstonvoksen med kasket_8: -801480181
+      NY-Mor-far-winston-winstonvoksen med kasket_9: 723726308
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f7ef68362198b1e438860ce0faf844a9
+guid: cc6c828dbdfa8e846a8cb642980681c7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -101,23 +101,11 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kat-animation_0
+      name: Kat-animation 1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,14 +119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 231042deeb17ee2499ca8e55d5813c89
-      internalID: -974877244
+      spriteID: 1a05af2fecfe552498973a7d91dde5ed
+      internalID: -1537546577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_1
+      name: Kat-animation 1_1
       rect:
         serializedVersion: 2
         x: 48
@@ -152,14 +140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52e04108f4bdf1c4a8302ffe5042a13d
-      internalID: -654362327
+      spriteID: 4a3b86c16ce77c040a1506a1cc14eb18
+      internalID: -1441433458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_2
+      name: Kat-animation 1_2
       rect:
         serializedVersion: 2
         x: 96
@@ -173,14 +161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59a86a92ec0d1b7469fc1f199016d576
-      internalID: -51132152
+      spriteID: e2c6305e7a7d5c74fa60df1ca6322d0d
+      internalID: 272444800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_3
+      name: Kat-animation 1_3
       rect:
         serializedVersion: 2
         x: 144
@@ -194,14 +182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecc85401bdd30794d95ddb448b3f134a
-      internalID: 2063276156
+      spriteID: a3b9ec5e227cc47448a75fde2f5a035b
+      internalID: -1304229898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_4
+      name: Kat-animation 1_4
       rect:
         serializedVersion: 2
         x: 192
@@ -215,14 +203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 928eba4852518604e9d988b145a00e68
-      internalID: -342134846
+      spriteID: 436d79044083cb24fbaa6cb638878529
+      internalID: -141493744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_5
+      name: Kat-animation 1_5
       rect:
         serializedVersion: 2
         x: 240
@@ -236,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76cf776565c5d124d916719b46e21fa8
-      internalID: 662212704
+      spriteID: 7f5860672f1b62943abb75c764f9f8a0
+      internalID: -2121229176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_6
+      name: Kat-animation 1_6
       rect:
         serializedVersion: 2
         x: 0
@@ -257,14 +245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f630555a27d10234c9b92566406cce3f
-      internalID: -190574711
+      spriteID: 545be5d3838930b43aff8f255b7ea9ef
+      internalID: 1084091835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_7
+      name: Kat-animation 1_7
       rect:
         serializedVersion: 2
         x: 48
@@ -278,14 +266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81e68f9cffdbc6c4497c168cc434bfff
-      internalID: -2130486513
+      spriteID: 59061a2428628d3418727b3b66c56b40
+      internalID: -243163752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_8
+      name: Kat-animation 1_8
       rect:
         serializedVersion: 2
         x: 96
@@ -299,14 +287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ba1fe1b592e954a847be3fd09dc06f
-      internalID: -20883524
+      spriteID: ffeb99b362362c144996f26d42bae22f
+      internalID: 1245180965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_9
+      name: Kat-animation 1_9
       rect:
         serializedVersion: 2
         x: 144
@@ -320,14 +308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c520c6c571f30774794fb8310e65655b
-      internalID: -156717144
+      spriteID: aa73e168fde76024190e0d8c4401f0b9
+      internalID: -1527482132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_10
+      name: Kat-animation 1_10
       rect:
         serializedVersion: 2
         x: 192
@@ -341,14 +329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd4d5564e4a7c1342bcf7a8c70a6479e
-      internalID: -2051414428
+      spriteID: ac1a1c3d368df264e8b64709acfef017
+      internalID: -831166195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_11
+      name: Kat-animation 1_11
       rect:
         serializedVersion: 2
         x: 240
@@ -362,14 +350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 281a969477025d84f9b2b8bf2f05103c
-      internalID: 1780121836
+      spriteID: 5e79ac29b6cbd40429f46797676bee98
+      internalID: 400270694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_12
+      name: Kat-animation 1_12
       rect:
         serializedVersion: 2
         x: 0
@@ -383,14 +371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e40f65166aa164439b9ffbaea8e76d2
-      internalID: -1181373475
+      spriteID: a7b68a557e2e2a94daab79abf91d03f8
+      internalID: 1847781715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_13
+      name: Kat-animation 1_13
       rect:
         serializedVersion: 2
         x: 48
@@ -404,14 +392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cfd6e81a8653634ea1491768ebd637d
-      internalID: -1374740544
+      spriteID: 55464229afb371445a3ff60cc8074064
+      internalID: -898021362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_14
+      name: Kat-animation 1_14
       rect:
         serializedVersion: 2
         x: 96
@@ -425,14 +413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: def59b1494699ef4cb263225a90e211c
-      internalID: 425386966
+      spriteID: fbd40e9d4ef76084493fe672b49cb38d
+      internalID: -2105208264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_15
+      name: Kat-animation 1_15
       rect:
         serializedVersion: 2
         x: 144
@@ -446,14 +434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7196163a08272454f9000412067b8979
-      internalID: 1422133520
+      spriteID: 21ca587e166f8c344b93db991c2a0d65
+      internalID: -52668738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_16
+      name: Kat-animation 1_16
       rect:
         serializedVersion: 2
         x: 192
@@ -467,14 +455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6595447bf1c5b3a439a67891ddde6839
-      internalID: 327578651
+      spriteID: 8f4dbd3ad9cfa9f47b82d32f29883769
+      internalID: -1533163156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kat-animation_17
+      name: Kat-animation 1_17
       rect:
         serializedVersion: 2
         x: 240
@@ -488,8 +476,134 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fe2f47614adb9b4c8b98f900c477417
-      internalID: -865807830
+      spriteID: e9feeb0ef00d5534fa9c69ad9fb8e27d
+      internalID: 1029135467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat-animation 1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a339be55de2a249a90ffcccf8f08a5
+      internalID: -1144107950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat-animation 1_19
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f87561333eb114580dc856085e2913
+      internalID: -426422924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat-animation 1_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729f4bd73c5e95b44980c1987a164bd5
+      internalID: 1196007675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat-animation 1_21
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f71f87d416efb4ea3d9bcec1dc63d3
+      internalID: -834497058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat-animation 1_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c62779da7bf8fb4db090c904bcde9f2
+      internalID: -1248155456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat-animation 1_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c019fcbaba105b946a2487847d2c2944
+      internalID: -1482766754
       vertices: []
       indices: 
       edges: []
@@ -505,24 +619,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Kat-animation_0: -974877244
-      Kat-animation_1: -654362327
-      Kat-animation_10: -2051414428
-      Kat-animation_11: 1780121836
-      Kat-animation_12: -1181373475
-      Kat-animation_13: -1374740544
-      Kat-animation_14: 425386966
-      Kat-animation_15: 1422133520
-      Kat-animation_16: 327578651
-      Kat-animation_17: -865807830
-      Kat-animation_2: -51132152
-      Kat-animation_3: 2063276156
-      Kat-animation_4: -342134846
-      Kat-animation_5: 662212704
-      Kat-animation_6: -190574711
-      Kat-animation_7: -2130486513
-      Kat-animation_8: -20883524
-      Kat-animation_9: -156717144
+      Kat-animation 1_0: -1537546577
+      Kat-animation 1_1: -1441433458
+      Kat-animation 1_10: -831166195
+      Kat-animation 1_11: 400270694
+      Kat-animation 1_12: 1847781715
+      Kat-animation 1_13: -898021362
+      Kat-animation 1_14: -2105208264
+      Kat-animation 1_15: -52668738
+      Kat-animation 1_16: -1533163156
+      Kat-animation 1_17: 1029135467
+      Kat-animation 1_18: -1144107950
+      Kat-animation 1_19: -426422924
+      Kat-animation 1_2: 272444800
+      Kat-animation 1_20: 1196007675
+      Kat-animation 1_21: -834497058
+      Kat-animation 1_22: -1248155456
+      Kat-animation 1_23: -1482766754
+      Kat-animation 1_3: -1304229898
+      Kat-animation 1_4: -141493744
+      Kat-animation 1_5: -2121229176
+      Kat-animation 1_6: 1084091835
+      Kat-animation 1_7: -243163752
+      Kat-animation 1_8: 1245180965
+      Kat-animation 1_9: -1527482132
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
