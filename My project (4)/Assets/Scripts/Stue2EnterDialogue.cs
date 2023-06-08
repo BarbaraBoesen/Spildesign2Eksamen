@@ -20,7 +20,7 @@ public class Stue2EnterDialogue : MonoBehaviour
 
     private bool dialogueTriggered = false; // Flag to track if the dialogue has been triggered
 
-    void Start()
+    void Awake()
     {
         textComponent.text = string.Empty;
         signCanvas = transform.Find("Canvas").GetComponent<Canvas>();
@@ -29,7 +29,7 @@ public class Stue2EnterDialogue : MonoBehaviour
         Image characterImageComponent = signCanvas.transform.Find("CharacterImage").GetComponent<Image>();
         characterImageComponent.sprite = characterImages[characterIndex];
 
-        SceneManager.sceneLoaded += OnSceneLoaded; // Subscribe to the sceneLoaded event
+        StartDialogue();
     }
 
     void Update()
@@ -80,11 +80,5 @@ public class Stue2EnterDialogue : MonoBehaviour
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
         }
-    }
-
-    // Callback method when a new scene is loaded
-    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
-    {
-        StartDialogue();
     }
 }
