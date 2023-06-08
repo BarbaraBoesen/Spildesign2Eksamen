@@ -363,7 +363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 3996503667380807067}
   lines:
-  - Her er vin glassene!
+  - Her er vinglassene!
   characters:
   - 'CharacterA '
   textSpeed: 0

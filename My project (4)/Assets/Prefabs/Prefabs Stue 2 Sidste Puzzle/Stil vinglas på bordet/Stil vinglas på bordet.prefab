@@ -229,8 +229,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 7570584371081903814}
   lines:
-  - "Winston stiller glassene p\xE5 bordet"
-  - "Der mangler kun borddekorationen nu.. synes jeg s\xE5 den ovre ved sofaerne"
+  - "Oppe i h\xF8jre hj\xF8rne af tallerknen. Parallelt med bordet."
+  - "S\xE5dan!"
+  - Borddekorationen mangler endnu...
   characters:
   - CharacterA
   - CharacterA
@@ -238,6 +239,8 @@ MonoBehaviour:
   ReadingDistance: 0
   objectToDestroy: {fileID: 7810298090050691669}
   characterImages:
+  - {fileID: 21300000, guid: 41e20aee76194e74aabf4c71e8c3af07, type: 3}
+  - {fileID: 21300000, guid: 41e20aee76194e74aabf4c71e8c3af07, type: 3}
   - {fileID: 21300000, guid: 41e20aee76194e74aabf4c71e8c3af07, type: 3}
 --- !u!114 &6485138197172391037
 MonoBehaviour:
