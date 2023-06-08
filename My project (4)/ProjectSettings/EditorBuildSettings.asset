@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Stue2.unity
     guid: 2e686700270eebc44a771288c01dfd2d
+  - enabled: 1
+    path: "Assets/Scenes/K\xF8kkenCutscene.unity"
+    guid: 4fdaf6e23be02cd46baa335d362598fb
   m_configObjects: {}
