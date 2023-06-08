@@ -59,6 +59,7 @@ public class DialogueClockTP : MonoBehaviour
         index = 0;
         characterIndex = 0; // Start with the first character
         StartCoroutine(TypeLine());
+        
     }
 
     void NextLine()
@@ -80,10 +81,12 @@ public class DialogueClockTP : MonoBehaviour
 
             StartCoroutine(TypeLine());
         }
-        else
+        else 
         {
             signCanvas.gameObject.SetActive(false);
             DestroyObject();
+
+
         }
     }
 

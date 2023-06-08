@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 2300819941561616668}
   m_Layer: 0
   m_Name: Krukken(Minde) (1)
-  m_TagString: Untagged
+  m_TagString: Dialogue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -475,6 +475,7 @@ MonoBehaviour:
   - CharacterA
   textSpeed: 0
   ReadingDistance: 0
+  isReading: 0
   characterImages:
   - {fileID: 21300000, guid: e076b45eb4c517444a0eab299cf4bf49, type: 3}
   - {fileID: 21300000, guid: 16df0d6a28da6014d9f1d30b00032370, type: 3}

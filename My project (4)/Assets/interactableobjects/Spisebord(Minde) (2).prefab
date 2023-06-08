@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 8357807965569494598}
   m_Layer: 0
   m_Name: Spisebord(Minde) (2)
-  m_TagString: Untagged
+  m_TagString: Dialogue
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -236,6 +236,7 @@ MonoBehaviour:
   - CharacterA
   textSpeed: 0
   ReadingDistance: 0
+  isReading: 0
   characterImages:
   - {fileID: 21300000, guid: 16df0d6a28da6014d9f1d30b00032370, type: 3}
   - {fileID: 21300000, guid: 16df0d6a28da6014d9f1d30b00032370, type: 3}
