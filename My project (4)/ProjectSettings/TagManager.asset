@@ -8,7 +8,6 @@ TagManager:
   - Form
   - PuzzleManager
   - Dialogue
-  - startButton
   layers:
   - Default
   - TransparentFX

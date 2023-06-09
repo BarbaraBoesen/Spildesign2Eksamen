@@ -37,22 +37,8 @@ public class AudioManager : MonoBehaviour
         AudioSource source = audioSources[sourceIndex];
         source.clip = audioClips[clipIndex];
         source.Play();
-
     }
-
-    public void PlayMusicClip(int clipIndex)
-    {
-        if (clipIndex < 0 || clipIndex >= audioClips.Length)
-        {
-            Debug.LogWarning("AudioManager: Invalid index");
-            return;
-        }
-
-        audioSources[1].clip = audioClips[clipIndex];
-        audioSources[1].Play();
-    }
-
-
+    
 
     public void PlayMusic()
     {
@@ -64,9 +50,9 @@ public class AudioManager : MonoBehaviour
 
     public void StopMusic()
     {
-        if (audioSources[1].isPlaying)
+        if (musicSource.isPlaying)
         {
-            audioSources[1].Stop();
+            musicSource.Stop();
         }
     }
 
