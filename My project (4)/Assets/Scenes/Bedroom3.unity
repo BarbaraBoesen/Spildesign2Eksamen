@@ -5293,6 +5293,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FadeToBlack
       objectReference: {fileID: 0}
+    - target: {fileID: 2865972363855460183, guid: 3cb2c7e418068a74aa12d4404279457e, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3cb2c7e418068a74aa12d4404279457e, type: 3}
 --- !u!1 &409765243
@@ -6284,8 +6288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f21ebf710205b4a8bac7acce77eb69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn:
-  - {fileID: 2202597514773953312, guid: 9c02b5cde0b757747a52705b81615a0b, type: 3}
+  prefabToSpawn: {fileID: 2202597514773953312, guid: 9c02b5cde0b757747a52705b81615a0b, type: 3}
   spawnPoint: {fileID: 2202597514773953325, guid: 9c02b5cde0b757747a52705b81615a0b, type: 3}
 --- !u!114 &639799611
 MonoBehaviour:
@@ -6299,8 +6302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f21ebf710205b4a8bac7acce77eb69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn:
-  - {fileID: 7496775766116439106, guid: 78482b0c0eecea945983f576079f361f, type: 3}
+  prefabToSpawn: {fileID: 7496775766116439106, guid: 78482b0c0eecea945983f576079f361f, type: 3}
   spawnPoint: {fileID: 7496775766116439119, guid: 78482b0c0eecea945983f576079f361f, type: 3}
 --- !u!1001 &644005683
 PrefabInstance:
@@ -20919,8 +20921,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f21ebf710205b4a8bac7acce77eb69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabsToSpawn:
-  - {fileID: 9157383444618671399, guid: eba0de4c7849b394cb1a34d24812db6b, type: 3}
+  prefabToSpawn: {fileID: 9157383444618671399, guid: eba0de4c7849b394cb1a34d24812db6b, type: 3}
   spawnPoint: {fileID: 1345237721}
 --- !u!114 &1564729619
 MonoBehaviour:

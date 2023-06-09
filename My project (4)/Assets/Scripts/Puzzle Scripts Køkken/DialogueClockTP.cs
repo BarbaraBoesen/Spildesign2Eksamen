@@ -84,7 +84,7 @@ public class DialogueClockTP : MonoBehaviour
         else 
         {
             signCanvas.gameObject.SetActive(false);
-            DestroyObject();
+            
 
 
         }
@@ -110,10 +110,6 @@ public class DialogueClockTP : MonoBehaviour
         ReadingDistance = false;
     }
 
-    private void DestroyObject()
-    {
-        Destroy(objectToDestroy);
-    }
     
        
     
