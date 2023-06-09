@@ -2969,7 +2969,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2016723870361619660, guid: fcf233947b436624d975cf46cfd7d6c8, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2016723870361619660, guid: fcf233947b436624d975cf46cfd7d6c8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3052,6 +3052,11 @@ PrefabInstance:
     - {fileID: 2016723870361619658, guid: fcf233947b436624d975cf46cfd7d6c8, type: 3}
     - {fileID: 2016723870361619657, guid: fcf233947b436624d975cf46cfd7d6c8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fcf233947b436624d975cf46cfd7d6c8, type: 3}
+--- !u!4 &774947192 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2016723870361619660, guid: fcf233947b436624d975cf46cfd7d6c8, type: 3}
+  m_PrefabInstance: {fileID: 774947191}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &775709178
 GameObject:
   m_ObjectHideFlags: 0
@@ -3090,6 +3095,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &775709180
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5682,7 +5688,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 774947192}
     m_Modifications:
     - target: {fileID: 6272668038909818384, guid: 0543fc41c266fb7428f864eacbb05b80, type: 3}
       propertyPath: m_Name
@@ -5690,19 +5696,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6272668038909818385, guid: 0543fc41c266fb7428f864eacbb05b80, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6272668038909818385, guid: 0543fc41c266fb7428f864eacbb05b80, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.84
+      value: 19.079657
       objectReference: {fileID: 0}
     - target: {fileID: 6272668038909818385, guid: 0543fc41c266fb7428f864eacbb05b80, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -32.53
+      value: -4.3820915
       objectReference: {fileID: 0}
     - target: {fileID: 6272668038909818385, guid: 0543fc41c266fb7428f864eacbb05b80, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 85.96631
+      value: 86.08754
       objectReference: {fileID: 0}
     - target: {fileID: 6272668038909818385, guid: 0543fc41c266fb7428f864eacbb05b80, type: 3}
       propertyPath: m_LocalRotation.w
@@ -31056,6 +31062,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1722483141
 SpriteRenderer:
   m_ObjectHideFlags: 0
