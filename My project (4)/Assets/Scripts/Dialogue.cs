@@ -123,6 +123,17 @@ public class Dialogue : MonoBehaviour
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
         }
+        // Check if the current line is the 10th one (index 9)
+        if (index == 10)
+        {
+            AudioManager.instance.StopMusic();
+        }
+
+        // Check if the current line is the 13th one (index 12)
+        if (index == 38)
+        {
+            AudioManager.instance.PlayClip(14, 1); // Replace 1 with the index of your new song in the audioClips array
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collider)
