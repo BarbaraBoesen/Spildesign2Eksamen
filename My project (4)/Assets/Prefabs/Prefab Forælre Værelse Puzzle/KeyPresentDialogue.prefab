@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7759701875897037882}
   - component: {fileID: 3383471859334624846}
   - component: {fileID: 6876418952514906857}
+  - component: {fileID: 1589694846950220508}
   m_Layer: 0
   m_Name: KeyPresentDialogue
   m_TagString: Untagged
@@ -82,6 +83,20 @@ MonoBehaviour:
   objectToDestroy: {fileID: 1355003255976564770}
   characterImages:
   - {fileID: 21300000, guid: 16df0d6a28da6014d9f1d30b00032370, type: 3}
+--- !u!114 &1589694846950220508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355003255976564770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66f21ebf710205b4a8bac7acce77eb69, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabToSpawn: {fileID: 4098867901771795565, guid: cd74ff010c850a949a6c252082ec5a9e, type: 3}
+  spawnPoint: {fileID: 4098867901771795555, guid: cd74ff010c850a949a6c252082ec5a9e, type: 3}
 --- !u!1 &3826254214893849796
 GameObject:
   m_ObjectHideFlags: 0

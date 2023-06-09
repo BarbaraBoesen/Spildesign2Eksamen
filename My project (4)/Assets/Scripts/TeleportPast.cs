@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using Cinemachine;
 
 public class TeleportPast : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class TeleportPast : MonoBehaviour
     public Collider2D teleportTrigger; // Reference to the trigger collider
     public Image fadeImage; // Reference to the fade image
     public float fadeDuration = 0.7f; // Duration of the fade effect in seconds
+    public GameObject[] objectsToDisable;
+    public GameObject[] objectsToEnable;
+    public CinemachineVirtualCamera vcam;
+
 
     private bool canTeleport; // Flag to track if teleportation is allowed
 
@@ -32,6 +37,20 @@ public class TeleportPast : MonoBehaviour
         yield return StartCoroutine(FadeImage(true)); // Fade in (to black)
         transform.position = destination;
         yield return new WaitForSeconds(1f); // Wait for one second
+
+        // Disable objects
+        foreach (GameObject obj in objectsToDisable)
+        {
+            obj.SetActive(false);
+        }
+
+        // Enable objects
+        foreach (GameObject obj in objectsToEnable)
+        {
+            obj.SetActive(true);
+        }
+        vcam.Follow = objectsToEnable[0].transform;
+
         yield return StartCoroutine(FadeImage(false)); // Fade out (from black)
     }
 
