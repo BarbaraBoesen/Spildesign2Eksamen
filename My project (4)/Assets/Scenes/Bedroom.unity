@@ -324,7 +324,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2016723870361619661, guid: fcf233947b436624d975cf46cfd7d6c8, type: 3}
       propertyPath: audioClips.Array.size
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2016723870361619661, guid: fcf233947b436624d975cf46cfd7d6c8, type: 3}
       propertyPath: audioSources.Array.size
@@ -333,7 +333,7 @@ PrefabInstance:
     - target: {fileID: 2016723870361619661, guid: fcf233947b436624d975cf46cfd7d6c8, type: 3}
       propertyPath: audioClips.Array.data[12]
       value: 
-      objectReference: {fileID: 8300000, guid: a6ac3648f8a70465e813a59a78556462, type: 3}
+      objectReference: {fileID: 8300000, guid: c5e2a73ad4706440f93bf05df0b465fe, type: 3}
     - target: {fileID: 2016723870361619661, guid: fcf233947b436624d975cf46cfd7d6c8, type: 3}
       propertyPath: audioSources.Array.data[0]
       value: 
@@ -514,6 +514,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &83105695
 Transform:
   m_ObjectHideFlags: 0
@@ -5359,6 +5360,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &288814757
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7903,6 +7905,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &661094009
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20273,6 +20276,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 34831132}
     m_Modifications:
+    - target: {fileID: 6272668037729189280, guid: 0543fc41c266fb7428f864eacbb05b80, type: 3}
+      propertyPath: m_Volume
+      value: 0.474
+      objectReference: {fileID: 0}
     - target: {fileID: 6272668038909818384, guid: 0543fc41c266fb7428f864eacbb05b80, type: 3}
       propertyPath: m_Name
       value: AudioSources
@@ -20579,6 +20586,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1202719176
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20741,6 +20749,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &1229828371
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -27154,7 +27163,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288438824}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84d1aaf72d5854c4d81dc5c2a4883f4d, type: 3}
   m_Name: 
@@ -27170,7 +27179,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288438824}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3a4c5892e676e6b408b15c5c346cda70, type: 3}
   m_Name: 
