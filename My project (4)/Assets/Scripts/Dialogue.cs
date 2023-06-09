@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -80,7 +81,7 @@ public class Dialogue : MonoBehaviour
         StartCoroutine(TypeLine());
     }
 
-    void NextLine()
+    public void NextLine() 
     {
         if (index < lines.Length - 1)
         {
@@ -164,8 +165,4 @@ public class Dialogue : MonoBehaviour
             StartCoroutine(TypeLine());
         }
     }
-
-
-
-
 }
