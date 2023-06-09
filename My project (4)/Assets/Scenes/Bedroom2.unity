@@ -4333,11 +4333,15 @@ MonoBehaviour:
   lines:
   - "N\xE5rh ja, gad vide hvor den kasket blev af.."
   - "Jeg burde n\xE6sten se om jeg ikke kan finde den. "
+  currentLines: []
   characters:
   - CharacterA
   - CharacterA
   textSpeed: 0
   ReadingDistance: 0
+  isReading: 0
+  decisions: []
+  buttonHandler: {fileID: 0}
   characterImages:
   - {fileID: 21300000, guid: 16df0d6a28da6014d9f1d30b00032370, type: 3}
   - {fileID: 21300000, guid: 16df0d6a28da6014d9f1d30b00032370, type: 3}
@@ -15494,11 +15498,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2650013879959051688, guid: b6de863ea4c51b94b828f6ea8814805a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -46.80005
+      value: -44.80005
       objectReference: {fileID: 0}
     - target: {fileID: 2650013879959051688, guid: b6de863ea4c51b94b828f6ea8814805a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -137
+      value: -104.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2650013879959051691, guid: b6de863ea4c51b94b828f6ea8814805a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2650013879992001900, guid: b6de863ea4c51b94b828f6ea8814805a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -349.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2650013879992001900, guid: b6de863ea4c51b94b828f6ea8814805a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -95.6
       objectReference: {fileID: 0}
     - target: {fileID: 3564575968678645593, guid: b6de863ea4c51b94b828f6ea8814805a, type: 3}
       propertyPath: m_RootOrder
@@ -15736,7 +15752,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   presentTeleportLocation: {fileID: 2054537663}
-  pastTeleportLocation: {fileID: 497853500}
+  teleportTrigger: {fileID: 0}
+  fadeImage: {fileID: 0}
+  fadeDuration: 0.7
 --- !u!95 &1371733929
 Animator:
   serializedVersion: 5

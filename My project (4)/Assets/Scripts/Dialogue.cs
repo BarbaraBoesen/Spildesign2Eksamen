@@ -109,6 +109,7 @@ public class Dialogue : MonoBehaviour
             signCanvas.gameObject.SetActive(false);
             isReading = false;
             DialogueManager.instance.SetActiveDialogue(null);
+
         }
         StartCoroutine(TypeLine()); // Moved outside the if-else structure
     }

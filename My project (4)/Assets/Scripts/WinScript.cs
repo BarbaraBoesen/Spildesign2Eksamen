@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinScript : MonoBehaviour
 {
-    private int pointsToWin;
+    public int pointsToWin;
     private int currentPoints;
     public GameObject Fuses;
-    // Start is called before the first frame update
+    public string sceneName; // Start is called before the first frame update
+    
     void Start()
     {
-        pointsToWin = Fuses.transform.childCount;
+        
     }
 
     // Update is called once per frame
@@ -18,7 +20,9 @@ public class WinScript : MonoBehaviour
     {
         if (currentPoints >= pointsToWin)
         {
-            transform.GetChild(0).gameObject.SetActive(true);
+            
+            SceneManager.LoadScene(sceneName);
+
         }
     }
 

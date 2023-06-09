@@ -1,5 +1,4 @@
 
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -43,6 +42,7 @@ public class Tallerkner : MonoBehaviour
                 Debug.Log("Smith Estate");
                 StartDialogue();
                 hasInteracted = true; // Set the flag to true after the first interaction
+
             }
             signCanvas.gameObject.SetActive(!signCanvas.gameObject.activeSelf);
             ReadingDistance = false;
@@ -53,6 +53,7 @@ public class Tallerkner : MonoBehaviour
             if (textComponent.text == lines[index])
             {
                 NextLine();
+
             }
             else
             {
@@ -124,9 +125,5 @@ public class Tallerkner : MonoBehaviour
         Destroy(objectToDestroy);
 
     }
-
-
-
-
-
 }
+
