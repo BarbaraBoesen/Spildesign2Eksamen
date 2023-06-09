@@ -28,6 +28,7 @@ public class TeleportPast : MonoBehaviour
 
     IEnumerator TeleportAndFade(Vector2 destination)
     {
+        AudioManager.instance.PlayClip(12, 0);
         yield return StartCoroutine(FadeImage(true)); // Fade in (to black)
         transform.position = destination;
         yield return new WaitForSeconds(1f); // Wait for one second
