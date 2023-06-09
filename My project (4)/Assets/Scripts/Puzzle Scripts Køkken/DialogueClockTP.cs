@@ -13,6 +13,8 @@ public class DialogueClockTP : MonoBehaviour
     public bool ReadingDistance;
     private Canvas signCanvas;
     public GameObject objectToDestroy;
+    private bool isDialogueRunning = false;
+    private bool isDialogueStarted = false;
 
     public Sprite[] characterImages; // Array of character images corresponding to the characters array
 
@@ -32,7 +34,7 @@ public class DialogueClockTP : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T) && ReadingDistance == true)
+        if (Input.GetKeyDown(KeyCode.T) && ReadingDistance == true && !isDialogueStarted)
         {
             Debug.Log("Smith Estate");
             StartDialogue();
@@ -40,7 +42,7 @@ public class DialogueClockTP : MonoBehaviour
             ReadingDistance = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        if (isDialogueStarted && Input.GetKeyDown(KeyCode.E))
         {
             if (textComponent.text == lines[index])
             {
@@ -56,10 +58,11 @@ public class DialogueClockTP : MonoBehaviour
 
     public void StartDialogue()
     {
+        isDialogueRunning = true;
+        isDialogueStarted = true; // Set isDialogueStarted to true when dialogue starts
         index = 0;
         characterIndex = 0; // Start with the first character
         StartCoroutine(TypeLine());
-        
     }
 
     void NextLine()
@@ -81,12 +84,12 @@ public class DialogueClockTP : MonoBehaviour
 
             StartCoroutine(TypeLine());
         }
-        else 
+        else
         {
             signCanvas.gameObject.SetActive(false);
             DestroyObject();
-
-
+            isDialogueRunning = false;
+            isDialogueStarted = false; // Set isDialogueStarted to false when dialogue ends
         }
     }
 

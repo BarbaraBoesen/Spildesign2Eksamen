@@ -39,14 +39,14 @@ public class Dialogue : MonoBehaviour
         Image characterImageComponent = signCanvas.transform.Find("CharacterImage").GetComponent<Image>();
         characterImageComponent.sprite = characterImages[characterIndex];
     }
-    
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (ReadingDistance && !isReading) // Start reading only if player is in reading distance and not already reading
             {
-                
+
                 Debug.Log("Smith Estate");
                 StartDialogue();
                 AudioManager.instance.PlayClip(0, 0);
@@ -109,7 +109,6 @@ public class Dialogue : MonoBehaviour
             signCanvas.gameObject.SetActive(false);
             isReading = false;
             DialogueManager.instance.SetActiveDialogue(null);
-
         }
         StartCoroutine(TypeLine()); // Moved outside the if-else structure
     }
@@ -123,17 +122,6 @@ public class Dialogue : MonoBehaviour
         {
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
-        }
-        // Check if the current line is the 10th one (index 9)
-        if (index == 10)
-        {
-            AudioManager.instance.StopMusic();
-        }
-
-        // Check if the current line is the 13th one (index 12)
-        if (index == 38)
-        {
-            AudioManager.instance.PlayClip(14, 1); // Replace 1 with the index of your new song in the audioClips array
         }
     }
 
@@ -154,7 +142,7 @@ public class Dialogue : MonoBehaviour
         public string positiveOutcome; // The outcome for choosing "yes"
         public string negativeOutcome; // The outcome for choosing "no"
     }
-    
+
 
     public void MakeDecision(bool decision)
     {

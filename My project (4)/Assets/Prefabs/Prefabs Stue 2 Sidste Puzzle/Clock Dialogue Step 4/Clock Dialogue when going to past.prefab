@@ -75,9 +75,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 6024017681232422104}
   lines:
-  - "M\xE5ske du skulle... "
-  - Ja
-  - Nej du skal ej
+  - Tag dig i agt, Winston.
+  - For hvad?
+  - "For det ukendtes kl\xF8er, lad nysgerrighedens flammer ikke slikke for h\xF8jt."
   characters:
   - 'CharacterA '
   - CharacterB
