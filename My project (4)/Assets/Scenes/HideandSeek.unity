@@ -489,7 +489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 879810416}
   lines:
-  - "Jeg synes jeg s\xE5 ham gemme sig ved skiltet.. "
+  - "Jeg synes, jeg s\xE5 ham gemme sig ved skiltet.. "
   characters:
   - CharacterA
   textSpeed: 0
@@ -18032,6 +18032,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!61 &1531714950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29800,11 +29801,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 56088627}
   lines:
-  - 'Hvor er jeg? '
-  - Hvorfor er jeg ude i en skov..
-  - Hihihi
-  - 'Hvem er du?? '
-  - 'du kan ikke fange mig.. '
+  - Hvor er jeg? Hvorfo-
+  - Hvorfor er jeg ude i en skov..?
+  - Hihihi...
+  - Hvem er du?
+  - Du er den! Du ka' ikke fange mig!
   characters:
   - CharacterA
   - CharacterA
@@ -29928,6 +29929,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1076027600469914866, guid: 0e2c9094c7ebbb149b50c46aadba0704, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: Fanget!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076027600469914866, guid: 0e2c9094c7ebbb149b50c46aadba0704, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: "Nej, ikke mere. Vi m\xE5 hellere se at komme hjemad."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1076027600469914866, guid: 0e2c9094c7ebbb149b50c46aadba0704, type: 3}
+      propertyPath: lines.Array.data[3]
+      value: "\xD8v alts\xE5!"
+      objectReference: {fileID: 0}
     - target: {fileID: 1076027600469914867, guid: 0e2c9094c7ebbb149b50c46aadba0704, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -30061,6 +30074,23 @@ PrefabInstance:
       propertyPath: m_sharedMaterial
       value: 
       objectReference: {fileID: -6827061967816060395, guid: 562d65401f2b7c548ae08b51d93eed67, type: 2}
+    - target: {fileID: 4486410185433054497, guid: fb160da3503de3b43806b631d1c4bbbc, type: 3}
+      propertyPath: lines.Array.data[0]
+      value: "\xC5rh kom nu, hvor gemmer du dig? Vi har ikke tid til det her."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486410185433054497, guid: fb160da3503de3b43806b631d1c4bbbc, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: "Hov sagde jeg b\xE6nken? Jeg mente jo selvf\xF8lgelig de sten, vi altid
+        leger ved... "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486410185433054497, guid: fb160da3503de3b43806b631d1c4bbbc, type: 3}
+      propertyPath: lines.Array.data[2]
+      value: "Hold s\xE5 op! Nu kommer jeg og finder dig!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4486410185976619756, guid: fb160da3503de3b43806b631d1c4bbbc, type: 3}
+      propertyPath: lines.Array.data[1]
+      value: "Hihi, jeg er t\xE6t p\xE5 b\xE6nken..."
+      objectReference: {fileID: 0}
     - target: {fileID: 4486410186825848140, guid: fb160da3503de3b43806b631d1c4bbbc, type: 3}
       propertyPath: m_RootOrder
       value: 5
