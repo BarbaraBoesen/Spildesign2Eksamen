@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1357
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 180
+  controlID: 21
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 181
+  controlID: 22
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 182
+  controlID: 23
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,8 +270,8 @@ MonoBehaviour:
     y: 0
     width: 764
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -338,23 +338,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: bcf9feff1efafeff3afafeff2413ffff001ffffffc20ffffe223ffff402bffff6a60ffffcc60ffff3a61ffffba63ffff186dfffffa6dffffe26effffc06fffffd870ffffe472ffffa676ffff0a77ffff5e78ffffac78ffff647affffe27bffff807dffff887dffffce7dffff9895ffff269cffff829dffff28bdffff24c4ffffeac5ffff0cc7ffff0cc9ffff5ed9ffffd2dcffff34dfffffa4e3ffff58e6ffff02edffffc0efffffa0faffffdc63000044a9000076a9000066aa00009aaa000030b0000060b60000f0b7000000b8000068b8000086ba000044bd000014d5000092d5000036d60000d217010068180100b81c0100d41c0100701e0100041f0100ee380100f24f01002450010032500100705001003651010048510100
+      m_SelectedIDs: 74f5ffff
+      m_LastClickedID: -2700
+      m_ExpandedIDs: 74f5ffffb2f5ffff6af9ffff0cfbffffba7200003c7b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Mor
-        m_OriginalName: Mor
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 86292
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -627,7 +627,7 @@ MonoBehaviour:
       containerId: overlay-toolbar__top
       floating: 0
       collapsed: 0
-      displayed: 1
+      displayed: 0
       snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
@@ -1069,10 +1069,10 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 361}
-    m_SelectedIDs: 18610000
-    m_LastClickedID: 24856
-    m_ExpandedIDs: 00000000086100000c6100000e61000016610000186100001e6100002061000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 74710000
+    m_LastClickedID: 29044
+    m_ExpandedIDs: 00000000d870000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1100,7 +1100,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002061000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000d8700000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

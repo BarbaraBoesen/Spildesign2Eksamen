@@ -780,7 +780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pointsToWin: 4
   Fuses: {fileID: 998683578}
-  sceneName: Bedroom3
+  sceneName: Cutscene 1
 --- !u!4 &764993618
 Transform:
   m_ObjectHideFlags: 0
