@@ -75,19 +75,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 6024017681232422104}
   lines:
-  - "M\xE5ske du skulle... "
-  - Ja
-  - Nej du skal ej
+  - "M\xE5ske du skulle snakke med din far "
   characters:
-  - 'CharacterA '
   - CharacterB
-  - CharacterA
   textSpeed: 0
   ReadingDistance: 0
   objectToDestroy: {fileID: 333753826095091467}
   characterImages:
-  - {fileID: 21300000, guid: e076b45eb4c517444a0eab299cf4bf49, type: 3}
-  - {fileID: 21300000, guid: 8d72a884b7ee53b488d9cd207cc3acaa, type: 3}
   - {fileID: 21300000, guid: e076b45eb4c517444a0eab299cf4bf49, type: 3}
 --- !u!114 &-1136881031808569548
 MonoBehaviour:

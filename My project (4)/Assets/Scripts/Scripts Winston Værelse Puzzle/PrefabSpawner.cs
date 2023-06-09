@@ -4,18 +4,20 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
+
 public class PrefabSpawner : MonoBehaviour
 {
-    public GameObject[] prefabsToSpawn;
+    public GameObject prefabToSpawn;
     public Transform spawnPoint;
 
     private bool canSpawn;
+    private bool isSpawned;
 
     void Update()
     {
-        if (canSpawn && Input.GetKeyDown(KeyCode.E))
+        if (canSpawn && !isSpawned && Input.GetKeyDown(KeyCode.E))
         {
-            SpawnPrefabs();
+            SpawnPrefab();
         }
     }
 
@@ -35,11 +37,12 @@ public class PrefabSpawner : MonoBehaviour
         }
     }
 
-    void SpawnPrefabs()
+    void SpawnPrefab()
     {
-        foreach (GameObject prefab in prefabsToSpawn)
+        if (!isSpawned)
         {
-            Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
+            Instantiate(prefabToSpawn, spawnPoint.position, spawnPoint.rotation);
+            isSpawned = true;
         }
     }
 }
